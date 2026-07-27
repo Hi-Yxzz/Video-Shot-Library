@@ -1,0 +1,2340 @@
+{
+  "ai-stream-response": {
+    "titleZh": "AI 响应面板先落一句可读摘要，再让带状态图",
+    "tags": [
+      "组件",
+      "对话框",
+      "状态切换"
+    ]
+  },
+  "autolayout-gap-dial": {
+    "titleZh": "间距拨盘驱动布局",
+    "tags": [
+      "组件",
+      "数字"
+    ]
+  },
+  "beat-cut-moves": {
+    "titleZh": "硬切当节拍乐器的两式",
+    "tags": [
+      "节拍",
+      "推近",
+      "硬切",
+      "蒙太奇"
+    ]
+  },
+  "beat-step-list-theme-cycle": {
+    "titleZh": "三通道节拍器",
+    "tags": [
+      "节拍",
+      "段落",
+      "替换",
+      "滚动",
+      "列表",
+      "状态切换"
+    ]
+  },
+  "before-after-slider-scrub": {
+    "titleZh": "前后对比拉杆",
+    "tags": [
+      "图表",
+      "指标",
+      "拖动",
+      "推页"
+    ]
+  },
+  "bottom-push-stack-wipe": {
+    "titleZh": "底边上推换章",
+    "tags": [
+      "淡化",
+      "推近",
+      "推页"
+    ]
+  },
+  "brand-frame-snap": {
+    "titleZh": "品牌色画框语法",
+    "tags": [
+      "辉光",
+      "状态切换"
+    ]
+  },
+  "brand-ink-open": {
+    "titleZh": "墨线十字准星描画",
+    "tags": [
+      "开场",
+      "品牌",
+      "标题",
+      "字符",
+      "打字",
+      "手写"
+    ]
+  },
+  "bubble-swarm-takeover": {
+    "titleZh": "珠光气泡群幕布转场",
+    "tags": [
+      "淡化",
+      "单词",
+      "遮挡",
+      "粒子"
+    ]
+  },
+  "canvas-materialize-moves": {
+    "titleZh": "内容物化上画布两式",
+    "tags": [
+      "组件",
+      "打字",
+      "卡片",
+      "对话框",
+      "关系图",
+      "变形"
+    ]
+  },
+  "card-flip-reveal": {
+    "titleZh": "功能卡 3D 翻面揭示",
+    "tags": [
+      "淡化",
+      "数字",
+      "卡片",
+      "翻页",
+      "扫光"
+    ]
+  },
+  "card-flock-tumble": {
+    "titleZh": "三张 UI 页卡从侧棱薄边 3D 翻飞成阶梯",
+    "tags": [
+      "淡化",
+      "卡片"
+    ]
+  },
+  "cel-flash-stomp": {
+    "titleZh": "底色闪砸字",
+    "tags": [
+      "标题",
+      "单词",
+      "冲击"
+    ]
+  },
+  "chart-live-moves": {
+    "titleZh": "活体图表三式",
+    "tags": [
+      "图表",
+      "指标",
+      "数字",
+      "粒子",
+      "冲击"
+    ]
+  },
+  "circle-match-iris": {
+    "titleZh": "圆心匹配光圈切",
+    "tags": [
+      "淡化"
+    ]
+  },
+  "cloner-depth-echo": {
+    "titleZh": "克隆纵队",
+    "tags": [
+      "批量入场",
+      "页面展开"
+    ]
+  },
+  "collab-cursor-moves": {
+    "titleZh": "协作光标当演员的两式",
+    "tags": [
+      "组件",
+      "打字",
+      "对话框",
+      "聊天",
+      "光标",
+      "漂移"
+    ]
+  },
+  "color-block-step-wipe": {
+    "titleZh": "离散阶跃色块吞屏两式",
+    "tags": [
+      "淡化",
+      "卡片",
+      "推页",
+      "遮挡"
+    ]
+  },
+  "command-palette-summon": {
+    "titleZh": "命令面板降临",
+    "tags": [
+      "组件",
+      "段落",
+      "列表",
+      "菜单",
+      "对话框"
+    ]
+  },
+  "crane-rise-reveal": {
+    "titleZh": "升降臂拉升揭示",
+    "tags": [
+      "开场",
+      "品牌",
+      "拉远"
+    ]
+  },
+  "crash-zoom-punch": {
+    "titleZh": "全景一拍急推到目标特写（6f），落位二选一",
+    "tags": [
+      "推近",
+      "冲击"
+    ]
+  },
+  "dataviz-landscape-open": {
+    "titleZh": "暗场支流线束地景开场",
+    "tags": [
+      "开场",
+      "品牌",
+      "穿越"
+    ]
+  },
+  "deck-deal-flyin": {
+    "titleZh": "暗场金属背景里的实体牌堆特写环绕开局，拉远交",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "滚动",
+      "拉远",
+      "环绕",
+      "卡片墙"
+    ]
+  },
+  "depth-layer-moves": {
+    "titleZh": "分层深度两款运镜",
+    "tags": [
+      "推近",
+      "漂移"
+    ]
+  },
+  "document-typewriter-reveal": {
+    "titleZh": "整页真排版文档在光标后自己写出来、侧栏跟进、",
+    "tags": [
+      "标题",
+      "段落",
+      "打字",
+      "光标"
+    ]
+  },
+  "draw-svg-trace": {
+    "titleZh": "描边生长圈注",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "标题",
+      "手写",
+      "纹理"
+    ]
+  },
+  "edit-hook-moves": {
+    "titleZh": "logo-sting-button 片尾钩子",
+    "tags": [
+      "收尾",
+      "品牌",
+      "标题",
+      "点击",
+      "Logo"
+    ]
+  },
+  "element-body-moves": {
+    "titleZh": "元素身体感两式",
+    "tags": [
+      "批量入场",
+      "页面展开"
+    ]
+  },
+  "fui-hud-moves": {
+    "titleZh": "FUI/HUD 两式",
+    "tags": [
+      "辉光",
+      "光标",
+      "着色器"
+    ]
+  },
+  "gauge-readout-moves": {
+    "titleZh": "仪表读数两式",
+    "tags": [
+      "图表",
+      "指标",
+      "数字",
+      "滚动",
+      "光标"
+    ]
+  },
+  "glow-flyline-moves": {
+    "titleZh": "暗场光斑与飞线三式",
+    "tags": [
+      "辉光",
+      "高亮"
+    ]
+  },
+  "gradient-word-sweep": {
+    "titleZh": "黑底标语里关键词被渐变彩光从左到右快速扫过充",
+    "tags": [
+      "标题",
+      "单词",
+      "字符",
+      "高亮"
+    ]
+  },
+  "graze-face-tour": {
+    "titleZh": "大倾角贴面游走特写",
+    "tags": [
+      "推近",
+      "段落",
+      "单词",
+      "列表"
+    ]
+  },
+  "hashtag-to-pill-materialize": {
+    "titleZh": "话题词打字实体化",
+    "tags": [
+      "组件",
+      "单词",
+      "打字",
+      "光标",
+      "硬切"
+    ]
+  },
+  "icon-field-colorize": {
+    "titleZh": "灰阶小图标点阵错峰浮现铺满全屏，停一拍后多道",
+    "tags": [
+      "开场",
+      "品牌"
+    ]
+  },
+  "icon-performance-moves": {
+    "titleZh": "图标表演两式",
+    "tags": [
+      "辉光",
+      "表单",
+      "粒子",
+      "冲击"
+    ]
+  },
+  "impact-feedback": {
+    "titleZh": "命中反馈两式",
+    "tags": [
+      "辉光",
+      "数字",
+      "计数器",
+      "冲击"
+    ]
+  },
+  "input-trigger-moves": {
+    "titleZh": "输入触发两式",
+    "tags": [
+      "组件",
+      "打字",
+      "表单",
+      "光标",
+      "点击",
+      "推近"
+    ]
+  },
+  "integration-hub-map": {
+    "titleZh": "旧页面一次性快翻 180°（侧棱瞬间亮闪）落",
+    "tags": [
+      "批量入场",
+      "页面展开"
+    ]
+  },
+  "light-play-moves": {
+    "titleZh": "光效三式",
+    "tags": [
+      "辉光",
+      "高亮",
+      "扫光",
+      "冲击"
+    ]
+  },
+  "line-boil": {
+    "titleZh": "线条沸腾",
+    "tags": [
+      "标题",
+      "单词"
+    ]
+  },
+  "line-carry-transition": {
+    "titleZh": "线条接力横移转场",
+    "tags": [
+      "淡化",
+      "进度"
+    ]
+  },
+  "list-stack-press": {
+    "titleZh": "列表卡从画面底部逐张飞上摞起，每张落地压弹整",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "段落",
+      "数字",
+      "计数器",
+      "列表"
+    ]
+  },
+  "magician-card-flourish": {
+    "titleZh": "纯黑场上蓝色星芒闪现 0.3s（X 形针状光",
+    "tags": [
+      "开场",
+      "品牌",
+      "高亮",
+      "卡片",
+      "扫光"
+    ]
+  },
+  "marker-underline-title": {
+    "titleZh": "大标题落定后，关键词下方马克笔下划线从左到右",
+    "tags": [
+      "标题",
+      "手写"
+    ]
+  },
+  "montage-rhythm-moves": {
+    "titleZh": "蒙太奇节奏三式",
+    "tags": [
+      "节拍",
+      "蒙太奇",
+      "冲击"
+    ]
+  },
+  "morph-from-primitive": {
+    "titleZh": "原型变形",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "变形"
+    ]
+  },
+  "neon-frame-forerun": {
+    "titleZh": "强透视直角霓虹框自左缘两头奔画先行成型，页面",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "单词"
+    ]
+  },
+  "neon-frame-orbit-drop": {
+    "titleZh": "霓虹框先行描框后，镜头绕页面左",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "单词",
+      "环绕"
+    ]
+  },
+  "neon-triple-marquee": {
+    "titleZh": "三行对向霓虹跑马灯 recap",
+    "tags": [
+      "收尾",
+      "品牌",
+      "字幕",
+      "滚动"
+    ]
+  },
+  "odometer-digit-roll": {
+    "titleZh": "里程表数字滚动大字报",
+    "tags": [
+      "图表",
+      "指标",
+      "数字",
+      "滚动"
+    ]
+  },
+  "outro-group-photo-launch": {
+    "titleZh": "全片元素从四面八方飞来围住字标合影，cran",
+    "tags": [
+      "收尾",
+      "品牌",
+      "标题",
+      "Logo"
+    ]
+  },
+  "overhead-camera-moves": {
+    "titleZh": "俯拍揭示两式",
+    "tags": [
+      "推近"
+    ]
+  },
+  "page-turn-transitions": {
+    "titleZh": "整页体块转场两式",
+    "tags": [
+      "淡化",
+      "翻页"
+    ]
+  },
+  "page-waterfall-wall": {
+    "titleZh": "页面瀑布墙",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "滚动",
+      "漂移"
+    ]
+  },
+  "panel-grid-moves": {
+    "titleZh": "分格节奏三式",
+    "tags": [
+      "节拍",
+      "翻页",
+      "遮挡",
+      "卡片墙"
+    ]
+  },
+  "paper-craft-moves": {
+    "titleZh": "纸艺两式",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "卡片",
+      "遮挡",
+      "纹理"
+    ]
+  },
+  "paper-plane-messenger": {
+    "titleZh": "纸飞机信使转场",
+    "tags": [
+      "淡化",
+      "点击",
+      "拉远",
+      "漂移",
+      "纹理"
+    ]
+  },
+  "paper-title-card": {
+    "titleZh": "一句话逐词压印上纸、一个词标强调色斜体、短划",
+    "tags": [
+      "标题",
+      "卡片",
+      "纹理"
+    ]
+  },
+  "particle-celebrate-hits": {
+    "titleZh": "庆祝粒子两式",
+    "tags": [
+      "图表",
+      "指标",
+      "数字",
+      "计数器",
+      "粒子"
+    ]
+  },
+  "particle-sand-fill": {
+    "titleZh": "粒子落斗成柱",
+    "tags": [
+      "图表",
+      "指标",
+      "粒子"
+    ]
+  },
+  "pill-slot-cycle": {
+    "titleZh": "句中词槽轮换",
+    "tags": [
+      "标题",
+      "数字",
+      "计数器",
+      "替换"
+    ]
+  },
+  "print-texture-transitions": {
+    "titleZh": "印刷质感转场",
+    "tags": [
+      "淡化",
+      "单词",
+      "手写",
+      "纹理"
+    ]
+  },
+  "remocn-ui/accordion": {
+    "titleZh": "折叠面板",
+    "tags": [
+      "组件",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/ai-prompt-flow": {
+    "titleZh": "AI提示词流程",
+    "tags": [
+      "组件",
+      "打字",
+      "高亮",
+      "替换",
+      "点击",
+      "进度"
+    ]
+  },
+  "remocn-ui/alert-dialog": {
+    "titleZh": "警告对话框",
+    "tags": [
+      "组件",
+      "对话框",
+      "点击",
+      "状态切换",
+      "推近"
+    ]
+  },
+  "remocn-ui/blur-in": {
+    "titleZh": "模糊",
+    "tags": [
+      "组件",
+      "单词",
+      "菜单",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/button": {
+    "titleZh": "按钮",
+    "tags": [
+      "组件",
+      "点击",
+      "状态切换",
+      "进度"
+    ]
+  },
+  "remocn-ui/chat-flow": {
+    "titleZh": "聊天流程",
+    "tags": [
+      "组件",
+      "打字",
+      "表单",
+      "聊天",
+      "点击",
+      "粒子"
+    ]
+  },
+  "remocn-ui/checkbox": {
+    "titleZh": "复选框",
+    "tags": [
+      "组件",
+      "表单",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/checkout-flow": {
+    "titleZh": "结账流程",
+    "tags": [
+      "组件",
+      "数字",
+      "替换",
+      "卡片",
+      "表单",
+      "光标"
+    ]
+  },
+  "remocn-ui/combobox": {
+    "titleZh": "组合框",
+    "tags": [
+      "组件",
+      "打字",
+      "列表",
+      "表单",
+      "光标",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/command-menu": {
+    "titleZh": "命令菜单",
+    "tags": [
+      "组件",
+      "列表",
+      "菜单",
+      "对话框",
+      "状态切换",
+      "推近"
+    ]
+  },
+  "remocn-ui/context-menu": {
+    "titleZh": "上下文菜单",
+    "tags": [
+      "组件",
+      "单词",
+      "列表",
+      "菜单",
+      "点击",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/cursor": {
+    "titleZh": "光标",
+    "tags": [
+      "组件",
+      "光标",
+      "点击",
+      "拖动"
+    ]
+  },
+  "remocn-ui/dialog": {
+    "titleZh": "对话框",
+    "tags": [
+      "组件",
+      "对话框",
+      "点击",
+      "状态切换",
+      "推近"
+    ]
+  },
+  "remocn-ui/drawer": {
+    "titleZh": "抽屉",
+    "tags": [
+      "组件",
+      "手写",
+      "对话框",
+      "点击",
+      "拖动",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/dropdown-menu": {
+    "titleZh": "下拉菜单",
+    "tags": [
+      "组件",
+      "列表",
+      "菜单",
+      "点击",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/imessage-chat-flow": {
+    "titleZh": "iMessage聊天流程",
+    "tags": [
+      "组件",
+      "打字",
+      "聊天",
+      "光标",
+      "粒子"
+    ]
+  },
+  "remocn-ui/input": {
+    "titleZh": "输入框",
+    "tags": [
+      "组件",
+      "单词",
+      "打字",
+      "表单",
+      "光标",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/message-bubble": {
+    "titleZh": "消息",
+    "tags": [
+      "组件",
+      "聊天",
+      "状态切换",
+      "粒子"
+    ]
+  },
+  "remocn-ui/onboarding-stepper-flow": {
+    "titleZh": "引导步骤流程",
+    "tags": [
+      "组件",
+      "打字",
+      "替换",
+      "表单",
+      "点击",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/popover": {
+    "titleZh": "气泡卡片",
+    "tags": [
+      "组件",
+      "标题",
+      "卡片",
+      "对话框",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/radio": {
+    "titleZh": "单选框",
+    "tags": [
+      "组件",
+      "表单",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/resizable": {
+    "titleZh": "可调尺寸",
+    "tags": [
+      "组件",
+      "手写",
+      "拖动",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/select": {
+    "titleZh": "选择器",
+    "tags": [
+      "组件",
+      "表单",
+      "点击",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/settings-toggle-flow": {
+    "titleZh": "设置切换流程",
+    "tags": [
+      "组件",
+      "卡片",
+      "表单",
+      "光标",
+      "点击",
+      "拖动"
+    ]
+  },
+  "remocn-ui/sheet": {
+    "titleZh": "侧边面板",
+    "tags": [
+      "组件",
+      "卡片",
+      "点击",
+      "状态切换",
+      "推页"
+    ]
+  },
+  "remocn-ui/signup-flow": {
+    "titleZh": "注册流程",
+    "tags": [
+      "组件",
+      "单词",
+      "数字",
+      "计数器",
+      "卡片",
+      "表单"
+    ]
+  },
+  "remocn-ui/skeleton": {
+    "titleZh": "骨架屏",
+    "tags": [
+      "组件",
+      "高亮",
+      "替换",
+      "卡片",
+      "状态切换",
+      "进度"
+    ]
+  },
+  "remocn-ui/slider": {
+    "titleZh": "滑块",
+    "tags": [
+      "组件",
+      "拖动",
+      "状态切换",
+      "推页"
+    ]
+  },
+  "remocn-ui/stepper": {
+    "titleZh": "步骤",
+    "tags": [
+      "组件",
+      "数字",
+      "进度",
+      "漂移"
+    ]
+  },
+  "remocn-ui/switch": {
+    "titleZh": "开关",
+    "tags": [
+      "组件",
+      "点击",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/tabs": {
+    "titleZh": "标签页",
+    "tags": [
+      "组件",
+      "替换",
+      "状态切换"
+    ]
+  },
+  "remocn-ui/telegram-chat-flow": {
+    "titleZh": "Telegram聊天流程",
+    "tags": [
+      "组件",
+      "打字",
+      "聊天",
+      "光标",
+      "翻页",
+      "粒子"
+    ]
+  },
+  "remocn-ui/toast": {
+    "titleZh": "提示消息",
+    "tags": [
+      "组件",
+      "状态切换",
+      "推页"
+    ]
+  },
+  "remocn-ui/toggle-group": {
+    "titleZh": "切换分组",
+    "tags": [
+      "组件",
+      "替换",
+      "点击",
+      "状态切换",
+      "漂移",
+      "推页"
+    ]
+  },
+  "remocn/animated-bar-chart": {
+    "titleZh": "动态柱状图表",
+    "tags": [
+      "图表",
+      "指标"
+    ]
+  },
+  "remocn/animated-line-chart": {
+    "titleZh": "动态折线图表",
+    "tags": [
+      "图表",
+      "指标"
+    ]
+  },
+  "remocn/ascii-dissolve": {
+    "titleZh": "字符溶解",
+    "tags": [
+      "淡化",
+      "字符",
+      "漂移"
+    ]
+  },
+  "remocn/blur-out-up": {
+    "titleZh": "模糊淡出上移",
+    "tags": [
+      "标题",
+      "单词"
+    ]
+  },
+  "remocn/brush": {
+    "titleZh": "笔刷",
+    "tags": [
+      "辉光",
+      "手写",
+      "纹理"
+    ]
+  },
+  "remocn/caret-wipe": {
+    "titleZh": "插入符擦除",
+    "tags": [
+      "淡化",
+      "打字",
+      "光标",
+      "推页"
+    ]
+  },
+  "remocn/chat-gpt": {
+    "titleZh": "聊天GPT",
+    "tags": [
+      "组件",
+      "打字",
+      "高亮",
+      "表单",
+      "聊天",
+      "点击"
+    ]
+  },
+  "remocn/chat-to-preview-layout": {
+    "titleZh": "聊天预览布局",
+    "tags": [
+      "组件",
+      "手写",
+      "聊天",
+      "纹理"
+    ]
+  },
+  "remocn/check-list": {
+    "titleZh": "列表",
+    "tags": [
+      "标题",
+      "段落",
+      "手写",
+      "列表"
+    ]
+  },
+  "remocn/claude-chat": {
+    "titleZh": "Claude聊天",
+    "tags": [
+      "组件",
+      "单词",
+      "字符",
+      "打字",
+      "高亮",
+      "表单"
+    ]
+  },
+  "remocn/claude-code": {
+    "titleZh": "Claude代码",
+    "tags": [
+      "组件",
+      "打字",
+      "高亮",
+      "列表",
+      "菜单",
+      "光标"
+    ]
+  },
+  "remocn/confetti": {
+    "titleZh": "彩纸",
+    "tags": [
+      "辉光",
+      "粒子"
+    ]
+  },
+  "remocn/crumple-toss": {
+    "titleZh": "揉纸抛出",
+    "tags": [
+      "辉光",
+      "纹理"
+    ]
+  },
+  "remocn/data-flow-pipes": {
+    "titleZh": "数据流程管线",
+    "tags": [
+      "图表",
+      "指标",
+      "高亮"
+    ]
+  },
+  "remocn/dither-dissolve": {
+    "titleZh": "抖动溶解",
+    "tags": [
+      "淡化",
+      "着色器"
+    ]
+  },
+  "remocn/drift": {
+    "titleZh": "漂移",
+    "tags": [
+      "推近",
+      "漂移",
+      "推页",
+      "蒙太奇"
+    ]
+  },
+  "remocn/ecosystem-constellation": {
+    "titleZh": "生态星座关系",
+    "tags": [
+      "图表",
+      "指标",
+      "标题",
+      "关系图",
+      "环绕",
+      "Logo"
+    ]
+  },
+  "remocn/fade-through": {
+    "titleZh": "淡化穿透",
+    "tags": [
+      "淡化"
+    ]
+  },
+  "remocn/focus-blur-resolve": {
+    "titleZh": "焦点模糊显现",
+    "tags": [
+      "标题",
+      "单词",
+      "拉远"
+    ]
+  },
+  "remocn/focus-pull": {
+    "titleZh": "焦点拉焦",
+    "tags": [
+      "淡化",
+      "拉远"
+    ]
+  },
+  "remocn/github-sponsors": {
+    "titleZh": "GitHub赞助者",
+    "tags": [
+      "组件",
+      "标题",
+      "卡片墙"
+    ]
+  },
+  "remocn/github-stars": {
+    "titleZh": "GitHub星标",
+    "tags": [
+      "组件",
+      "数字",
+      "计数器"
+    ]
+  },
+  "remocn/glass-code-block": {
+    "titleZh": "玻璃代码块",
+    "tags": [
+      "组件",
+      "段落"
+    ]
+  },
+  "remocn/glass-code-walk": {
+    "titleZh": "玻璃代码漫游",
+    "tags": [
+      "组件",
+      "拉远"
+    ]
+  },
+  "remocn/grain-dissolve": {
+    "titleZh": "颗粒溶解",
+    "tags": [
+      "淡化",
+      "高亮",
+      "着色器",
+      "纹理"
+    ]
+  },
+  "remocn/hand-count": {
+    "titleZh": "手写数字计数",
+    "tags": [
+      "标题",
+      "数字",
+      "计数器",
+      "手写"
+    ]
+  },
+  "remocn/handwrite": {
+    "titleZh": "手写文字",
+    "tags": [
+      "标题",
+      "单词",
+      "字符",
+      "手写"
+    ]
+  },
+  "remocn/icon-scatter": {
+    "titleZh": "图标散开",
+    "tags": [
+      "淡化"
+    ]
+  },
+  "remocn/infinite-bento-pan": {
+    "titleZh": "无限便当网格平移",
+    "tags": [
+      "组件",
+      "卡片",
+      "漂移",
+      "卡片墙"
+    ]
+  },
+  "remocn/infinite-marquee": {
+    "titleZh": "无限文字滚动",
+    "tags": [
+      "标题",
+      "单词",
+      "字幕",
+      "滚动"
+    ]
+  },
+  "remocn/ink-arrow": {
+    "titleZh": "墨迹箭头",
+    "tags": [
+      "辉光",
+      "手写",
+      "纹理"
+    ]
+  },
+  "remocn/ink-underline": {
+    "titleZh": "墨迹下划线",
+    "tags": [
+      "辉光",
+      "手写",
+      "拖动",
+      "纹理"
+    ]
+  },
+  "remocn/inline-highlight": {
+    "titleZh": "行内高亮",
+    "tags": [
+      "标题",
+      "单词",
+      "高亮"
+    ]
+  },
+  "remocn/kinetic-center-build": {
+    "titleZh": "动感居中",
+    "tags": [
+      "标题",
+      "单词",
+      "推近",
+      "推页"
+    ]
+  },
+  "remocn/line-by-line-slide": {
+    "titleZh": "段落逐行滑入",
+    "tags": [
+      "标题",
+      "段落",
+      "关系图",
+      "推页"
+    ]
+  },
+  "remocn/live-code-compilation": {
+    "titleZh": "实时代码编译",
+    "tags": [
+      "组件"
+    ]
+  },
+  "remocn/logo-enter": {
+    "titleZh": "Logo入场",
+    "tags": [
+      "开场",
+      "品牌",
+      "标题",
+      "Logo"
+    ]
+  },
+  "remocn/marker-highlight": {
+    "titleZh": "记号笔高亮",
+    "tags": [
+      "标题",
+      "单词",
+      "手写",
+      "高亮"
+    ]
+  },
+  "remocn/mask-reveal-up": {
+    "titleZh": "遮罩揭示上移",
+    "tags": [
+      "标题",
+      "遮挡"
+    ]
+  },
+  "remocn/matrix-decode": {
+    "titleZh": "矩阵解码",
+    "tags": [
+      "组件",
+      "单词",
+      "字符",
+      "着色器"
+    ]
+  },
+  "remocn/number-wheel": {
+    "titleZh": "数字轮盘",
+    "tags": [
+      "图表",
+      "指标",
+      "数字",
+      "计数器",
+      "滚动"
+    ]
+  },
+  "remocn/opencode": {
+    "titleZh": "OpenCode 代码演示",
+    "tags": [
+      "组件",
+      "单词",
+      "打字",
+      "高亮",
+      "列表",
+      "表单"
+    ]
+  },
+  "remocn/page-turn": {
+    "titleZh": "页面翻页",
+    "tags": [
+      "淡化",
+      "翻页"
+    ]
+  },
+  "remocn/paper-sticker": {
+    "titleZh": "纸张贴纸",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "手写",
+      "纹理"
+    ]
+  },
+  "remocn/paper-wobble": {
+    "titleZh": "纸张摆动",
+    "tags": [
+      "辉光",
+      "手写",
+      "纹理"
+    ]
+  },
+  "remocn/per-word-crossfade": {
+    "titleZh": "单词逐个交叉淡化",
+    "tags": [
+      "标题",
+      "单词",
+      "替换",
+      "漂移"
+    ]
+  },
+  "remocn/perlin-dissolve": {
+    "titleZh": "溶解",
+    "tags": [
+      "淡化",
+      "着色器"
+    ]
+  },
+  "remocn/perspective-marquee": {
+    "titleZh": "滚动字幕",
+    "tags": [
+      "标题",
+      "字幕",
+      "滚动"
+    ]
+  },
+  "remocn/polaroid": {
+    "titleZh": "界面登场镜头",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "手写",
+      "字幕"
+    ]
+  },
+  "remocn/progress-steps": {
+    "titleZh": "界面交互镜头",
+    "tags": [
+      "组件",
+      "进度"
+    ]
+  },
+  "remocn/push-through": {
+    "titleZh": "穿透",
+    "tags": [
+      "淡化",
+      "推近",
+      "推页"
+    ]
+  },
+  "remocn/reel": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "卡片",
+      "遮挡"
+    ]
+  },
+  "remocn/rgb-glitch-text": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词"
+    ]
+  },
+  "remocn/ripple-zoom": {
+    "titleZh": "场景转场镜头",
+    "tags": [
+      "淡化",
+      "高亮",
+      "推近",
+      "纹理"
+    ]
+  },
+  "remocn/rolling-number": {
+    "titleZh": "数字",
+    "tags": [
+      "图表",
+      "指标",
+      "数字",
+      "滚动"
+    ]
+  },
+  "remocn/rolodex-flip": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词",
+      "替换",
+      "卡片",
+      "列表",
+      "翻页"
+    ]
+  },
+  "remocn/scribble-circle": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "手写",
+      "纹理"
+    ]
+  },
+  "remocn/shader-caustics": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮",
+      "着色器"
+    ]
+  },
+  "remocn/shader-color-panels": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-dithering": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮",
+      "着色器"
+    ]
+  },
+  "remocn/shader-dot-orbit": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "环绕",
+      "着色器"
+    ]
+  },
+  "remocn/shader-gem-smoke": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "标题",
+      "着色器",
+      "纹理",
+      "Logo"
+    ]
+  },
+  "remocn/shader-god-rays": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "数字",
+      "高亮",
+      "着色器"
+    ]
+  },
+  "remocn/shader-grain-gradient": {
+    "titleZh": "颗粒",
+    "tags": [
+      "辉光",
+      "单词",
+      "高亮",
+      "漂移",
+      "着色器",
+      "纹理"
+    ]
+  },
+  "remocn/shader-liquid-metal": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮",
+      "着色器"
+    ]
+  },
+  "remocn/shader-mesh-gradient": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮",
+      "着色器"
+    ]
+  },
+  "remocn/shader-metaballs": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-neuro-noise": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "变形",
+      "着色器"
+    ]
+  },
+  "remocn/shader-perlin-noise": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "漂移",
+      "着色器"
+    ]
+  },
+  "remocn/shader-pulsing-border": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮",
+      "着色器"
+    ]
+  },
+  "remocn/shader-simplex-noise": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-smoke-ring": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-spiral": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-strata": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "漂移",
+      "着色器"
+    ]
+  },
+  "remocn/shader-swirl": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-voronoi": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-warp": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-water": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器"
+    ]
+  },
+  "remocn/shader-weave": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "着色器",
+      "卡片墙"
+    ]
+  },
+  "remocn/shared-axis-y": {
+    "titleZh": "场景转场镜头",
+    "tags": [
+      "淡化",
+      "单词",
+      "硬切"
+    ]
+  },
+  "remocn/shared-axis-z": {
+    "titleZh": "场景转场镜头",
+    "tags": [
+      "淡化",
+      "单词",
+      "菜单"
+    ]
+  },
+  "remocn/shimmer-sweep": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词",
+      "高亮",
+      "扫光"
+    ]
+  },
+  "remocn/simulated-cursor": {
+    "titleZh": "光标",
+    "tags": [
+      "组件",
+      "光标",
+      "点击"
+    ]
+  },
+  "remocn/slide-swap": {
+    "titleZh": "滑入",
+    "tags": [
+      "淡化",
+      "推页",
+      "蒙太奇"
+    ]
+  },
+  "remocn/slot-machine-roll": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "字符",
+      "数字",
+      "计数器",
+      "滚动"
+    ]
+  },
+  "remocn/smoke-dissolve": {
+    "titleZh": "溶解",
+    "tags": [
+      "淡化",
+      "着色器"
+    ]
+  },
+  "remocn/soft-blur-in": {
+    "titleZh": "模糊",
+    "tags": [
+      "标题",
+      "字符"
+    ]
+  },
+  "remocn/spring-scale-in": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词"
+    ]
+  },
+  "remocn/spring-settle": {
+    "titleZh": "场景转场镜头",
+    "tags": [
+      "淡化",
+      "手写",
+      "蒙太奇",
+      "纹理"
+    ]
+  },
+  "remocn/staggered-fade-up": {
+    "titleZh": "淡化上移",
+    "tags": [
+      "标题",
+      "单词",
+      "推页"
+    ]
+  },
+  "remocn/strikethrough-replace": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词",
+      "替换"
+    ]
+  },
+  "remocn/swirl-dissolve": {
+    "titleZh": "溶解",
+    "tags": [
+      "淡化",
+      "着色器"
+    ]
+  },
+  "remocn/terminal-cursor-zoom": {
+    "titleZh": "光标",
+    "tags": [
+      "组件",
+      "打字",
+      "列表",
+      "菜单",
+      "光标",
+      "推近"
+    ]
+  },
+  "remocn/terminal-simulator": {
+    "titleZh": "界面交互镜头",
+    "tags": [
+      "组件",
+      "打字",
+      "滚动",
+      "列表",
+      "菜单"
+    ]
+  },
+  "remocn/tracking-in": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "字符"
+    ]
+  },
+  "remocn/typewriter": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词",
+      "字符",
+      "打字",
+      "手写",
+      "光标"
+    ]
+  },
+  "remocn/v0": {
+    "titleZh": "界面交互镜头",
+    "tags": [
+      "组件",
+      "单词",
+      "打字",
+      "高亮",
+      "点击",
+      "状态切换"
+    ]
+  },
+  "remocn/value-swap": {
+    "titleZh": "场景转场镜头",
+    "tags": [
+      "淡化",
+      "推页"
+    ]
+  },
+  "remocn/warp-dissolve": {
+    "titleZh": "溶解",
+    "tags": [
+      "淡化",
+      "着色器"
+    ]
+  },
+  "remocn/wave-wipe": {
+    "titleZh": "擦除",
+    "tags": [
+      "淡化",
+      "高亮",
+      "推页",
+      "遮挡",
+      "纹理"
+    ]
+  },
+  "remocn/whip-pan": {
+    "titleZh": "平移",
+    "tags": [
+      "淡化"
+    ]
+  },
+  "remocn/x-follow-card": {
+    "titleZh": "界面交互镜头",
+    "tags": [
+      "组件",
+      "高亮",
+      "卡片",
+      "光标",
+      "点击",
+      "翻页"
+    ]
+  },
+  "remocn/x-followers-overview": {
+    "titleZh": "界面交互镜头",
+    "tags": [
+      "组件",
+      "单词",
+      "数字",
+      "计数器",
+      "高亮",
+      "替换"
+    ]
+  },
+  "remocn/zoom-blur": {
+    "titleZh": "模糊",
+    "tags": [
+      "标题",
+      "推近",
+      "推页",
+      "冲击"
+    ]
+  },
+  "remotion-bits/bit-3d-basic": {
+    "titleZh": "空间运镜镜头",
+    "tags": [
+      "推近"
+    ]
+  },
+  "remotion-bits/bit-3d-elements": {
+    "titleZh": "空间运镜镜头",
+    "tags": [
+      "推近"
+    ]
+  },
+  "remotion-bits/bit-3d-step-timing-context": {
+    "titleZh": "上下文",
+    "tags": [
+      "推近",
+      "单词",
+      "菜单"
+    ]
+  },
+  "remotion-bits/bit-basic-code-block": {
+    "titleZh": "代码块",
+    "tags": [
+      "组件",
+      "段落",
+      "高亮"
+    ]
+  },
+  "remotion-bits/bit-basic-counter": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "数字",
+      "计数器"
+    ]
+  },
+  "remotion-bits/bit-blur-slide-word": {
+    "titleZh": "模糊滑入单词",
+    "tags": [
+      "节拍",
+      "单词",
+      "推页"
+    ]
+  },
+  "remotion-bits/bit-card-stack": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "卡片"
+    ]
+  },
+  "remotion-bits/bit-carousel-3d": {
+    "titleZh": "空间运镜镜头",
+    "tags": [
+      "推近",
+      "卡片"
+    ]
+  },
+  "remotion-bits/bit-conic-gradient": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮"
+    ]
+  },
+  "remotion-bits/bit-counter-confetti": {
+    "titleZh": "彩纸",
+    "tags": [
+      "节拍",
+      "数字",
+      "计数器",
+      "粒子"
+    ]
+  },
+  "remotion-bits/bit-cursor-flyover": {
+    "titleZh": "光标",
+    "tags": [
+      "推近",
+      "高亮",
+      "光标"
+    ]
+  },
+  "remotion-bits/bit-easings-visualizer": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍"
+    ]
+  },
+  "remotion-bits/bit-fireflies": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮",
+      "粒子"
+    ]
+  },
+  "remotion-bits/bit-flying-through-words": {
+    "titleZh": "穿透",
+    "tags": [
+      "推近",
+      "单词"
+    ]
+  },
+  "remotion-bits/bit-fracture-reassemble": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "卡片墙"
+    ]
+  },
+  "remotion-bits/bit-glitch-cycle": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词",
+      "替换"
+    ]
+  },
+  "remotion-bits/bit-glitch-in": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词"
+    ]
+  },
+  "remotion-bits/bit-grid-stagger": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "卡片墙"
+    ]
+  },
+  "remotion-bits/bit-ken-burns": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍"
+    ]
+  },
+  "remotion-bits/bit-linear-gradient": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮"
+    ]
+  },
+  "remotion-bits/bit-list-reveal": {
+    "titleZh": "列表揭示",
+    "tags": [
+      "节拍",
+      "列表"
+    ]
+  },
+  "remotion-bits/bit-matrix-rain": {
+    "titleZh": "矩阵",
+    "tags": [
+      "节拍",
+      "字符",
+      "着色器"
+    ]
+  },
+  "remotion-bits/bit-mosaic-reframe": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "卡片墙"
+    ]
+  },
+  "remotion-bits/bit-particles-fountain": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "粒子"
+    ]
+  },
+  "remotion-bits/bit-particles-grid": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "粒子",
+      "卡片墙"
+    ]
+  },
+  "remotion-bits/bit-particles-snow": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "粒子"
+    ]
+  },
+  "remotion-bits/bit-radial-gradient": {
+    "titleZh": "视觉特效镜头",
+    "tags": [
+      "辉光",
+      "高亮"
+    ]
+  },
+  "remotion-bits/bit-remotion-bits-promo": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "高亮"
+    ]
+  },
+  "remotion-bits/bit-scene-3d-cube-nav": {
+    "titleZh": "空间运镜镜头",
+    "tags": [
+      "推近"
+    ]
+  },
+  "remotion-bits/bit-scrolling-columns": {
+    "titleZh": "节奏动画镜头",
+    "tags": [
+      "节拍",
+      "滚动"
+    ]
+  },
+  "remotion-bits/bit-terminal-3d": {
+    "titleZh": "空间运镜镜头",
+    "tags": [
+      "推近",
+      "打字",
+      "列表",
+      "菜单"
+    ]
+  },
+  "remotion-bits/bit-transform3d-showcase": {
+    "titleZh": "空间运镜镜头",
+    "tags": [
+      "推近",
+      "字符",
+      "表单",
+      "变形",
+      "着色器"
+    ]
+  },
+  "remotion-bits/bit-typing-code-block": {
+    "titleZh": "代码块",
+    "tags": [
+      "组件",
+      "打字",
+      "高亮"
+    ]
+  },
+  "remotion-bits/cli-simulation": {
+    "titleZh": "界面交互镜头",
+    "tags": [
+      "组件",
+      "打字",
+      "列表",
+      "菜单"
+    ]
+  },
+  "remotion-bits/multitext-typewriter": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "单词",
+      "打字",
+      "蒙太奇"
+    ]
+  },
+  "remotion-bits/variable-speed-typewriter": {
+    "titleZh": "文字动效镜头",
+    "tags": [
+      "标题",
+      "打字"
+    ]
+  },
+  "rhythm-interrupt-moves": {
+    "titleZh": "打断节奏两式",
+    "tags": [
+      "节拍",
+      "推近",
+      "冲击"
+    ]
+  },
+  "riso-print-hits": {
+    "titleZh": "套印错位两式",
+    "tags": [
+      "辉光",
+      "冲击"
+    ]
+  },
+  "row-embed": {
+    "titleZh": "内容行像卡片一样从空中降下、rotateX ",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "卡片"
+    ]
+  },
+  "runway-ground-skim": {
+    "titleZh": "低角度掠地机位下 UI 卡片群从空中一阵急雨",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "卡片"
+    ]
+  },
+  "sakuga-timing-shift": {
+    "titleZh": "一拍三转一拍一",
+    "tags": [
+      "节拍"
+    ]
+  },
+  "scroll-brake-moves": {
+    "titleZh": "长卷急刹两式",
+    "tags": [
+      "图表",
+      "指标",
+      "滚动",
+      "光标"
+    ]
+  },
+  "segmented-thumb-hero": {
+    "titleZh": "分段控件 thumb 位移当主角特写",
+    "tags": [
+      "组件",
+      "标题",
+      "光标"
+    ]
+  },
+  "shot-transitions": {
+    "titleZh": "镜头交棒六式",
+    "tags": [
+      "淡化",
+      "标题",
+      "推页",
+      "遮挡"
+    ]
+  },
+  "skeleton-reveal": {
+    "titleZh": "草稿",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "段落",
+      "单词",
+      "替换",
+      "列表"
+    ]
+  },
+  "slam-entrance-moves": {
+    "titleZh": "高能砸入三式",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "冲击"
+    ]
+  },
+  "smear-multiples": {
+    "titleZh": "残像分身",
+    "tags": [
+      "节拍",
+      "卡片"
+    ]
+  },
+  "space-camera-moves": {
+    "titleZh": "3D 空间化运镜两式",
+    "tags": [
+      "推近",
+      "冲击"
+    ]
+  },
+  "spectrum-morph-ui": {
+    "titleZh": "频谱化 UI",
+    "tags": [
+      "节拍",
+      "标题",
+      "手写",
+      "变形"
+    ]
+  },
+  "speed-ramp-freeze": {
+    "titleZh": "帧号非线性 remap 的两款节奏手法",
+    "tags": [
+      "节拍"
+    ]
+  },
+  "split-flap-title": {
+    "titleZh": "机场翻牌屏字标题",
+    "tags": [
+      "标题",
+      "字符",
+      "Logo"
+    ]
+  },
+  "spotlight-hero-card": {
+    "titleZh": "聚光灯扫过页面锁定一张卡，斜 45° 推进后",
+    "tags": [
+      "开场",
+      "品牌",
+      "标题",
+      "高亮",
+      "卡片"
+    ]
+  },
+  "spotlight-sweep-moves": {
+    "titleZh": "暗场聚光显影三式",
+    "tags": [
+      "辉光",
+      "高亮",
+      "扫光"
+    ]
+  },
+  "steep-tilt-glide": {
+    "titleZh": "固定镜头下直立页面以 60° 强透视侧立（右",
+    "tags": [
+      "推近",
+      "单词"
+    ]
+  },
+  "stroke-segment-build": {
+    "titleZh": "断笔成字",
+    "tags": [
+      "开场",
+      "品牌",
+      "标题",
+      "段落"
+    ]
+  },
+  "tear-streak-transitions": {
+    "titleZh": "撕裂转场",
+    "tags": [
+      "淡化",
+      "数字",
+      "硬切"
+    ]
+  },
+  "tension-camera-moves": {
+    "titleZh": "情绪运镜四式",
+    "tags": [
+      "推近",
+      "滚动",
+      "拉远",
+      "环绕",
+      "推页"
+    ]
+  },
+  "text-column-converge": {
+    "titleZh": "双词对峙合拢",
+    "tags": [
+      "标题",
+      "单词",
+      "硬切"
+    ]
+  },
+  "theme-switch-moves": {
+    "titleZh": "主题切换两式",
+    "tags": [
+      "组件",
+      "对话框",
+      "点击",
+      "状态切换"
+    ]
+  },
+  "timeline-travel": {
+    "titleZh": "时间轴横移",
+    "tags": [
+      "图表",
+      "指标",
+      "卡片",
+      "推近"
+    ]
+  },
+  "title-demote-to-label": {
+    "titleZh": "大标题降格为节标签两式",
+    "tags": [
+      "标题",
+      "高亮"
+    ]
+  },
+  "trailer-grammar-moves": {
+    "titleZh": "预告片语法三式",
+    "tags": [
+      "节拍",
+      "标题",
+      "卡片",
+      "聊天"
+    ]
+  },
+  "transition-hidden-cut": {
+    "titleZh": "藏切点转场三式",
+    "tags": [
+      "淡化",
+      "硬切",
+      "冲击"
+    ]
+  },
+  "transition-travel": {
+    "titleZh": "穿越式转场两式",
+    "tags": [
+      "淡化",
+      "穿越"
+    ]
+  },
+  "type-and-filter": {
+    "titleZh": "真实 UI 上打字搜索、网格自己收敛成一张卡",
+    "tags": [
+      "组件",
+      "打字",
+      "点击",
+      "卡片墙"
+    ]
+  },
+  "type-assembly-moves": {
+    "titleZh": "文字集结四式",
+    "tags": [
+      "标题",
+      "单词",
+      "字符",
+      "表单",
+      "漂移"
+    ]
+  },
+  "type-entrance-moves": {
+    "titleZh": "标题文字入场两式",
+    "tags": [
+      "标题",
+      "单词",
+      "字符",
+      "冲击"
+    ]
+  },
+  "type-rhythm-sync": {
+    "titleZh": "文字随声同步两式",
+    "tags": [
+      "标题",
+      "单词"
+    ]
+  },
+  "typewriter-moves": {
+    "titleZh": "打字机两式",
+    "tags": [
+      "标题",
+      "打字",
+      "冲击"
+    ]
+  },
+  "ui-strip-away-outro": {
+    "titleZh": "减法式收尾",
+    "tags": [
+      "收尾",
+      "品牌",
+      "标题",
+      "点击",
+      "Logo"
+    ]
+  },
+  "ui-to-brand-morph": {
+    "titleZh": "UI 变品牌两式",
+    "tags": [
+      "收尾",
+      "品牌",
+      "标题",
+      "单词",
+      "字符",
+      "打字"
+    ]
+  },
+  "voice-waveform-live": {
+    "titleZh": "录音胶囊实时声纹",
+    "tags": [
+      "组件",
+      "滚动",
+      "表单"
+    ]
+  },
+  "wall-reveal-moves": {
+    "titleZh": "整墙批量入场三式",
+    "tags": [
+      "批量入场",
+      "页面展开",
+      "卡片",
+      "翻页",
+      "卡片墙"
+    ]
+  },
+  "wipe-transitions": {
+    "titleZh": "几何擦除转场两式",
+    "tags": [
+      "淡化",
+      "推页"
+    ]
+  },
+  "word-relay-filmstrip": {
+    "titleZh": "左列黑白相间等高页面卡步进滚动、右侧衬线大词",
+    "tags": [
+      "标题",
+      "单词",
+      "滚动",
+      "卡片"
+    ]
+  }
+}
