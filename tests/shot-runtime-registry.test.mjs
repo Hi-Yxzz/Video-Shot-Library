@@ -36,7 +36,7 @@ test("runtime source adapters cover every executable catalog family", async () =
   );
 
   assert.equal(executableCards.length, 174);
-  assert.equal(referenceCards.length, 102);
+  assert.equal(referenceCards.length, 123);
   assert.equal(Object.keys(remocnManifest).length, 138);
   assert.equal(Object.keys(bitsManifest).length, 36);
   assert.match(remocnSource, /remocnScenes/);

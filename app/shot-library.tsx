@@ -13,10 +13,10 @@ import { ShotCard } from "./shot-card";
 import { ShotDialog } from "./shot-dialog";
 
 const FALLBACK_STATS = {
-  cardCount: 276,
-  styleCount: 333,
-  previewCount: 333,
-  videoPreviewCount: 159,
+  cardCount: 297,
+  styleCount: 354,
+  previewCount: 354,
+  videoPreviewCount: 180,
   playerPreviewCount: 174,
 };
 const EMPTY_CARDS: LibraryCard[] = [];
@@ -305,9 +305,9 @@ export function ShotLibrary() {
             Vincentwei1021/video-shotcraft
             <span aria-hidden="true">↗</span>
           </a>
-          。新增 S/A/B 镜头来自 Remocn 与 Remotion Bits，并在本地 Player 中直接执行
-          TSX；原目录保留 MP4 预览。各项目代码与素材适用其各自许可证，本项目不代表任何
-          第三方品牌背书。
+          。新增 S/A/B 镜头来自 Remocn 与 Remotion Bits，并加入 21 条自制 A-roll
+          Remotion 镜头；本地 Player 直接执行 TSX，原目录保留 MP4 预览。各项目代码与
+          素材适用其各自许可证，本项目不代表任何第三方品牌背书。
         </p>
       </footer>
 

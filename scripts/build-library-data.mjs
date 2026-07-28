@@ -400,7 +400,78 @@ export function normalizeLibrary(library, local = {}, excludedShots = []) {
   };
 }
 
-export function mergeCatalogs(upstreamCatalog, gradedCatalog) {
+export function createArollCards(entries) {
+  if (!Array.isArray(entries)) {
+    throw new TypeError("A-roll entries must be an array");
+  }
+
+  return entries.map((entry) => {
+    const filename = entry.outputPath?.split("/").at(-1);
+    if (
+      typeof entry.id !== "string" ||
+      typeof entry.title !== "string" ||
+      typeof entry.compositionId !== "string" ||
+      typeof filename !== "string" ||
+      !filename.endsWith(".mp4")
+    ) {
+      throw new TypeError("A-roll entry is missing required card fields");
+    }
+
+    const tags = [
+      ...new Set(
+        Object.values(entry.tags ?? {}).flatMap((group) =>
+          Array.isArray(group) ? group : []
+        ),
+      ),
+    ];
+    const previewUrl = `/media/a-roll/${filename}`;
+    const durationSeconds = entry.durationInFrames / entry.fps;
+
+    return {
+      id: entry.id,
+      title: entry.title,
+      summary: `${entry.title}，使用可编辑 Remotion Composition 复刻的人物主镜头。`,
+      use: "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      duration: `${durationSeconds.toFixed(2)}s · ${entry.durationInFrames}f`,
+      energy: "中（人物稳定，信息元素按时间轴进入）",
+      category: "a-roll",
+      recipePath: null,
+      recipeUrl: null,
+      recipeAvailable: false,
+      demoFiles: [],
+      hasDemo: true,
+      styles: [
+        {
+          key: entry.id,
+          label: entry.title,
+          description: `${entry.width}×${entry.height} · ${entry.fps}fps · 无声`,
+          media: {
+            url: previewUrl,
+            type: "mp4",
+          },
+          previewUrl,
+          implementationStatus: "implemented",
+        },
+      ],
+      collection: "yxzz-a-roll",
+      grade: null,
+      score: null,
+      previewKind: "video",
+      playerUrl: null,
+      compositionId: entry.compositionId,
+      sourceUrl:
+        `${PROJECT_REPOSITORY_URL}/blob/main/` +
+        "library-sources/a-roll-remotion/src/Root.tsx",
+      license: "User-provided media / private project",
+      codeFiles: [
+        "library-sources/a-roll-remotion/src/Root.tsx",
+      ],
+      tags,
+    };
+  });
+}
+
+export function mergeCatalogs(upstreamCatalog, gradedCatalog, arollEntries = []) {
   if (!Array.isArray(upstreamCatalog?.cards)) {
     throw new TypeError("Upstream catalog cards must be an array");
   }
@@ -429,7 +500,8 @@ export function mergeCatalogs(upstreamCatalog, gradedCatalog) {
     license: "Apache-2.0",
     codeFiles: [...card.demoFiles],
   }));
-  const cards = [...videoCards, ...gradedCards]
+  const arollCards = createArollCards(arollEntries);
+  const cards = [...videoCards, ...gradedCards, ...arollCards]
     .sort((left, right) => compareText(left.id, right.id));
   const seen = new Set();
 
@@ -441,7 +513,7 @@ export function mergeCatalogs(upstreamCatalog, gradedCatalog) {
   }
 
   const styles = cards.flatMap((card) => card.styles);
-  const videoPreviewCount = videoCards
+  const videoPreviewCount = [...videoCards, ...arollCards]
     .flatMap((card) => card.styles)
     .filter((style) => style.previewUrl !== null).length;
   const playerPreviewCount = gradedCards.length;
@@ -454,6 +526,13 @@ export function mergeCatalogs(upstreamCatalog, gradedCatalog) {
 
   return {
     ...upstreamCatalog,
+    categories: {
+      ...upstreamCatalog.categories,
+      "a-roll": {
+        zh: "A-roll 人物主镜头",
+        en: "A-roll Presenter Shots",
+      },
+    },
     cards,
     gradeCounts,
     stats: {
@@ -472,12 +551,19 @@ async function createLibraryData(root) {
   const absoluteRoot = resolve(root);
   const sourcePath = resolve(absoluteRoot, "source/upstream-library.json");
   const gradedPath = resolve(absoluteRoot, "source/graded-library.json");
+  const arollPath = resolve(absoluteRoot, "source/a-roll-entries.json");
   const metadataPath = resolve(absoluteRoot, "source/shot-metadata.json");
   const exclusionsPath = resolve(absoluteRoot, "source/excluded-shots.json");
   const outputPath = resolve(absoluteRoot, "public/data/library.json");
-  const [source, graded, metadata, exclusions, local] = await Promise.all([
+  const [source, graded, aroll, metadata, exclusions, local] = await Promise.all([
     readFile(sourcePath, "utf8"),
     readFile(gradedPath, "utf8"),
+    readFile(arollPath, "utf8").catch((error) => {
+      if (error?.code === "ENOENT") {
+        return "[]";
+      }
+      throw error;
+    }),
     readFile(metadataPath, "utf8"),
     readFile(exclusionsPath, "utf8").catch((error) => {
       if (error?.code === "ENOENT") {
@@ -494,10 +580,20 @@ async function createLibraryData(root) {
       JSON.parse(exclusions),
     ),
     JSON.parse(graded),
+    JSON.parse(aroll),
+  );
+  const arollCards = mergedCatalog.cards.filter(
+    (card) => card.collection === "yxzz-a-roll",
+  );
+  const curatedCards = mergedCatalog.cards.filter(
+    (card) => card.collection !== "yxzz-a-roll",
   );
   const catalog = {
     ...mergedCatalog,
-    cards: applyShotMetadata(mergedCatalog.cards, JSON.parse(metadata)),
+    cards: [
+      ...applyShotMetadata(curatedCards, JSON.parse(metadata)),
+      ...arollCards,
+    ].sort((left, right) => compareText(left.id, right.id)),
   };
 
   return {

@@ -2,15 +2,1148 @@
   "generatedAt": "2026-07-19T05:01:54.882Z",
   "revision": "bdd94be16d60fa8f",
   "stats": {
-    "cardCount": 276,
-    "styleCount": 333,
-    "previewCount": 333,
-    "mediaCount": 159,
+    "cardCount": 297,
+    "styleCount": 354,
+    "previewCount": 354,
+    "mediaCount": 180,
     "newest": "2026-07-26T12:36:39.000Z",
-    "videoPreviewCount": 159,
+    "videoPreviewCount": 180,
     "playerPreviewCount": 174
   },
   "cards": [
+    {
+      "id": "a-roll-001-photo-looping-cards",
+      "title": "静态人物＋双层循环卡片",
+      "summary": "静态人物＋双层循环卡片，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "7.67s · 230f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-001-photo-looping-cards",
+          "label": "静态人物＋双层循环卡片",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/photo-shot-replica.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/photo-shot-replica.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "PhotoReplica",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "固定机位",
+        "轻推镜",
+        "呼吸视差",
+        "循环卡片",
+        "AI公司卡片",
+        "双层元素轨道",
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-002-openai-equity-split",
+      "title": "OpenAI 股权分屏讲解",
+      "summary": "OpenAI 股权分屏讲解，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "7.87s · 236f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-002-openai-equity-split",
+          "label": "OpenAI 股权分屏讲解",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/openai-equity-split.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/openai-equity-split.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "OpenAIEquitySplit",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "左右分屏",
+        "固定机位",
+        "轻推镜",
+        "呼吸视差",
+        "逐格显现",
+        "OpenAI股权图",
+        "100格图表",
+        "数字强调",
+        "微软标识",
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-003-ai-brand-card-comparison",
+      "title": "OpenAI 与 Anthropic 悬浮卡片",
+      "summary": "OpenAI 与 Anthropic 悬浮卡片，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "2.20s · 66f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-003-ai-brand-card-comparison",
+          "label": "OpenAI 与 Anthropic 悬浮卡片",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/ai-brand-card-comparison.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/ai-brand-card-comparison.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "AIBrandCardComparison",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "固定机位",
+        "居中构图",
+        "轻推镜",
+        "呼吸视差",
+        "卡片依次进入",
+        "悬浮",
+        "OpenAI卡片",
+        "Anthropic卡片",
+        "双层玻璃卡片",
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-004-ai-icon-cloud",
+      "title": "人物周围 AI 图标云",
+      "summary": "人物周围 AI 图标云，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "4.67s · 140f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-004-ai-icon-cloud",
+          "label": "人物周围 AI 图标云",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/ai-icon-cloud.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/ai-icon-cloud.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "AIIconCloud",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "固定机位",
+        "居中构图",
+        "图标依次弹入",
+        "环绕漂浮",
+        "末段淡出",
+        "AI公司图标",
+        "图标云",
+        "可替换元素",
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-005-product-sop-panel",
+      "title": "产品 SOP 文档展开",
+      "summary": "产品 SOP 文档展开，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "2.60s · 78f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-005-product-sop-panel",
+          "label": "产品 SOP 文档展开",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/product-sop-panel.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/product-sop-panel.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "ProductSOPPanel",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "左右构图",
+        "固定机位",
+        "面板入场",
+        "文档展开",
+        "轻推镜",
+        "SOP文档",
+        "工作台侧栏",
+        "可替换文本",
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-006-ai-usage-headline",
+      "title": "AI 使用场景与红线标题",
+      "summary": "AI 使用场景与红线标题，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "5.67s · 170f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-006-ai-usage-headline",
+          "label": "AI 使用场景与红线标题",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/ai-usage-headline.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/ai-usage-headline.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "AIUsageHeadline",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "左右标题",
+        "居中构图",
+        "左标题入场",
+        "右标题入场",
+        "轻推镜",
+        "大型中文标题",
+        "AI使用场景",
+        "AI使用红线",
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-007-bilateral-ai-icon-stacks",
+      "title": "左右 AI 图标双列",
+      "summary": "左右 AI 图标双列，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "3.27s · 98f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-007-bilateral-ai-icon-stacks",
+          "label": "左右 AI 图标双列",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/bilateral-ai-icon-stacks.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/bilateral-ai-icon-stacks.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "BilateralAIIconStacks",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "居中构图",
+        "双列图标入场",
+        "悬浮",
+        "AI工具图标",
+        "可替换元素",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-008-trae-logo-callout",
+      "title": "Trae 品牌标识弹入",
+      "summary": "Trae 品牌标识弹入，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "2.40s · 72f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-008-trae-logo-callout",
+          "label": "Trae 品牌标识弹入",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/trae-logo-callout.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/trae-logo-callout.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "TraeLogoCallout",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "左侧标识",
+        "品牌标识弹入",
+        "轻推镜",
+        "Trae标识",
+        "可替换品牌",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-009-claude-codex-comparison",
+      "title": "Claude Code 与 Codex 对比框",
+      "summary": "Claude Code 与 Codex 对比框，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "1.50s · 45f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-009-claude-codex-comparison",
+          "label": "Claude Code 与 Codex 对比框",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/claude-codex-comparison.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/claude-codex-comparison.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "ClaudeCodexComparison",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "工具对比",
+        "圆角人物窗",
+        "轻推镜",
+        "Claude Code",
+        "Codex",
+        "黑底版式",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-010-prompt-document-split",
+      "title": "提示词文档右侧分屏",
+      "summary": "提示词文档右侧分屏，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "3.43s · 103f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-010-prompt-document-split",
+          "label": "提示词文档右侧分屏",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/prompt-document-split.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/prompt-document-split.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "PromptDocumentSplit",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "左右分屏",
+        "人物左置",
+        "文档滑入",
+        "轻推镜",
+        "提示词文档",
+        "可替换文本",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-011-document-slide",
+      "title": "自定义命令文档左侧滑入",
+      "summary": "自定义命令文档左侧滑入，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "3.57s · 107f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-011-document-slide",
+          "label": "自定义命令文档左侧滑入",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-011-document-slide.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-011-document-slide.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll011DocumentSlide",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "左右分屏",
+        "人物右置",
+        "文档滑入",
+        "轻推镜",
+        "命令文档",
+        "可替换文本",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-012-milestone-counter",
+      "title": "双平台里程碑数字动画",
+      "summary": "双平台里程碑数字动画，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "2.13s · 64f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-012-milestone-counter",
+          "label": "双平台里程碑数字动画",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-012-milestone-counter.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-012-milestone-counter.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll012MilestoneCounter",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "居中构图",
+        "数字递增",
+        "成绩卡弹入",
+        "里程碑数字",
+        "成绩卡",
+        "进度条",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-013-boss-level-cards",
+      "title": "三张等级卡水平入场",
+      "summary": "三张等级卡水平入场，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "3.20s · 96f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-013-boss-level-cards",
+          "label": "三张等级卡水平入场",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-013-boss-level-cards.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-013-boss-level-cards.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll013BossLevelCards",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "居中构图",
+        "卡片依次进入",
+        "轻推镜",
+        "三张卡片",
+        "可替换标签",
+        "水平对齐",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-014-iteration-growth",
+      "title": "迭代成长柱状图",
+      "summary": "迭代成长柱状图，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "5.90s · 177f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-014-iteration-growth",
+          "label": "迭代成长柱状图",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-014-iteration-growth.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-014-iteration-growth.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll014IterationGrowth",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "左侧图表",
+        "柱状图逐级生长",
+        "标题滑入",
+        "成长柱状图",
+        "迭代标题",
+        "信息卡",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-015-knowledge-commodity",
+      "title": "知识平权卡片与工具条",
+      "summary": "知识平权卡片与工具条，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "5.07s · 152f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-015-knowledge-commodity",
+          "label": "知识平权卡片与工具条",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-015-knowledge-commodity.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-015-knowledge-commodity.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll015KnowledgeCommodity",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "右侧卡片",
+        "知识卡滑入",
+        "底部工具条进入",
+        "知识卡",
+        "AI工具条",
+        "可替换项目",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-016-patient-outcome",
+      "title": "不急于变现双色标题",
+      "summary": "不急于变现双色标题，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "3.70s · 111f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-016-patient-outcome",
+          "label": "不急于变现双色标题",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-016-patient-outcome.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-016-patient-outcome.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll016PatientOutcome",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "左侧标题",
+        "双色标题滑入",
+        "轻推镜",
+        "大型中文标题",
+        "蓝色强调",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-017-agent-card-swap",
+      "title": "WorkBuddy 与 OpenClaw 卡片切换",
+      "summary": "WorkBuddy 与 OpenClaw 卡片切换，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "3.77s · 113f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-017-agent-card-swap",
+          "label": "WorkBuddy 与 OpenClaw 卡片切换",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-017-agent-card-swap.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-017-agent-card-swap.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll017AgentCardSwap",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "右上卡片",
+        "品牌卡切换",
+        "右侧滑入",
+        "WorkBuddy",
+        "OpenClaw",
+        "可替换卡片",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-018-numbered-list",
+      "title": "三项编号列表依次进入",
+      "summary": "三项编号列表依次进入，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "4.23s · 127f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-018-numbered-list",
+          "label": "三项编号列表依次进入",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-018-numbered-list.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-018-numbered-list.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll018NumberedList",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "左侧列表",
+        "列表逐项进入",
+        "轻推镜",
+        "编号列表",
+        "可替换文字",
+        "三色强调",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-019-workflow-swap",
+      "title": "AI 工厂与数据分析工作流切换",
+      "summary": "AI 工厂与数据分析工作流切换，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "6.27s · 188f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-019-workflow-swap",
+          "label": "AI 工厂与数据分析工作流切换",
+          "description": "1920×1080 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-019-workflow-swap.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-019-workflow-swap.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll019WorkflowSwap",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "近景",
+        "双侧元素",
+        "工作流切换",
+        "卡片滑入",
+        "AI工厂",
+        "数据分析",
+        "任务卡",
+        "16:9",
+        "1080p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-020-ai-title-build",
+      "title": "AI 变现超大标题构成",
+      "summary": "AI 变现超大标题构成，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "1.13s · 34f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-020-ai-title-build",
+          "label": "AI 变现超大标题构成",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-020-ai-title-build.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-020-ai-title-build.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll020AITitleBuild",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "中近景",
+        "左侧标题",
+        "标题逐字构成",
+        "缩放弹入",
+        "AI变现",
+        "大型中文标题",
+        "16:9",
+        "720p",
+        "30fps",
+        "无声"
+      ]
+    },
+    {
+      "id": "a-roll-021-ai-claims",
+      "title": "AI 趋势双结论切换",
+      "summary": "AI 趋势双结论切换，使用可编辑 Remotion Composition 复刻的人物主镜头。",
+      "use": "人物讲解、观点表达、数据说明与社交媒体 A-roll 主镜头。",
+      "duration": "6.83s · 205f",
+      "energy": "中（人物稳定，信息元素按时间轴进入）",
+      "category": "a-roll",
+      "recipePath": null,
+      "recipeUrl": null,
+      "recipeAvailable": false,
+      "demoFiles": [],
+      "hasDemo": true,
+      "styles": [
+        {
+          "key": "a-roll-021-ai-claims",
+          "label": "AI 趋势双结论切换",
+          "description": "1280×720 · 30fps · 无声",
+          "media": {
+            "url": "/media/a-roll/a-roll-021-ai-claims.mp4",
+            "type": "mp4"
+          },
+          "previewUrl": "/media/a-roll/a-roll-021-ai-claims.mp4",
+          "implementationStatus": "implemented"
+        }
+      ],
+      "collection": "yxzz-a-roll",
+      "grade": null,
+      "score": null,
+      "previewKind": "video",
+      "playerUrl": null,
+      "compositionId": "Aroll021AIClaims",
+      "sourceUrl": "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/a-roll-remotion/src/Root.tsx",
+      "license": "User-provided media / private project",
+      "codeFiles": [
+        "library-sources/a-roll-remotion/src/Root.tsx"
+      ],
+      "tags": [
+        "单人",
+        "静态照片",
+        "口罩",
+        "中近景",
+        "居中标题",
+        "双结论切换",
+        "缩放弹入",
+        "80%结论",
+        "2026结论",
+        "紫色强调",
+        "16:9",
+        "720p",
+        "30fps",
+        "无声"
+      ]
+    },
     {
       "id": "ai-stream-response",
       "title": "AI 响应面板先落一句可读摘要，再让带状态图",
@@ -12529,6 +13662,10 @@
     "outro": {
       "zh": "收尾",
       "en": "Outro"
+    },
+    "a-roll": {
+      "zh": "A-roll 人物主镜头",
+      "en": "A-roll Presenter Shots"
     }
   },
   "gradeCounts": {

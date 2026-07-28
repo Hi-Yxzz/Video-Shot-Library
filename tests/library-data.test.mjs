@@ -16,6 +16,7 @@ import { fileURLToPath } from "node:url";
 import {
   buildLibraryData,
   checkLibraryData,
+  createArollCards,
   indexLocalFiles,
   mergeCatalogs,
   normalizeLibrary,
@@ -209,6 +210,38 @@ test("merges graded player cards while preserving video cards", () => {
     result.cards[1].sourceUrl,
     "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/remocn/registry/remocn/blur-in/index.tsx",
   );
+});
+
+test("converts A-roll entries into playable site cards", () => {
+  const cards = createArollCards([
+    {
+      id: "a-roll-012-milestone-counter",
+      title: "双平台里程碑数字动画",
+      rollType: "A-roll",
+      status: "ready",
+      compositionId: "Aroll012MilestoneCounter",
+      outputPath: "../remotion-photo-replica/out/a-roll-012-milestone-counter.mp4",
+      durationInFrames: 64,
+      fps: 30,
+      width: 1920,
+      height: 1080,
+      tags: {
+        subject: ["单人"],
+        motion: ["数字递增"],
+        format: ["无声"],
+      },
+    },
+  ]);
+
+  assert.equal(cards.length, 1);
+  assert.equal(cards[0].category, "a-roll");
+  assert.equal(cards[0].previewKind, "video");
+  assert.equal(cards[0].compositionId, "Aroll012MilestoneCounter");
+  assert.equal(
+    cards[0].styles[0].previewUrl,
+    "/media/a-roll/a-roll-012-milestone-counter.mp4",
+  );
+  assert.deepEqual(cards[0].tags, ["单人", "数字递增", "无声"]);
 });
 
 test("reclassifies committed graded cards during merge", () => {
