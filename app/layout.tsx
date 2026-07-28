@@ -3,7 +3,7 @@ import { headers } from "next/headers";
 import "./globals.css";
 
 const metadataCopy = {
-  title: "Yxzz的镜头库",
+  title: "Video Shot Library｜本地镜头库",
   description: "276 个镜头、159 个 MP4 预览与 174 个本地 TSX Player 实现索引。",
 } as const satisfies Metadata;
 

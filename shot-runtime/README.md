@@ -2,6 +2,9 @@
 
 统一 Remotion 镜头调用接口。通过稳定的镜头 ID 获取可编辑的 Remotion 镜头数据和可执行组件。
 
+当前接口随 GitHub 源码分发，尚未发布为 npm 包。以下示例假设代码文件位于克隆
+仓库根目录；如果放在其他目录，请相应调整相对路径。
+
 ## 快速开始
 
 ```tsx
@@ -11,7 +14,7 @@ import {
   searchShots,
   getShotControls,
   hasShot,
-} from "video-shotcraft-local-library/shot-runtime";
+} from "./shot-runtime";
 
 // 通过 ID 获取镜头
 const shot = getShot("remocn/hand-count");
@@ -176,7 +179,7 @@ const composition = shot.createComposition({
 
 ```tsx
 import { AbsoluteFill, Composition } from "remotion";
-import { getShot } from "video-shotcraft-local-library/shot-runtime";
+import { getShot } from "./shot-runtime";
 
 const shot = getShot("remocn/hand-count");
 
@@ -258,5 +261,5 @@ import type {
   ShotFilter,
   ShotGrade,
   ShotKind,
-} from "video-shotcraft-local-library/shot-runtime";
+} from "./shot-runtime";
 ```

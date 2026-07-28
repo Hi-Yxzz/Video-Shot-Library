@@ -3,27 +3,29 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/logo-mark-reverse.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/logo-mark.svg">
-  <img alt="video-shotcraft logo" src="./assets/brand/logo-mark.svg" width="112" height="112">
+  <img alt="Video Shot Library logo" src="./assets/brand/logo-mark.svg" width="112" height="112">
 </picture>
 
-<h1>video-shotcraft</h1>
+<h1>Video Shot Library</h1>
 
 [![GitHub stars](https://img.shields.io/github/stars/Hi-Yxzz/Video-Shot-Library)](https://github.com/Hi-Yxzz/Video-Shot-Library/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Hi-Yxzz/Video-Shot-Library)](https://github.com/Hi-Yxzz/Video-Shot-Library/network/members)
 [![Gallery](https://img.shields.io/badge/Gallery-在线样片-d3923c)](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/)
 
-**让 agent 帮你制作电影感产品视频的 skill：104 张镜头配方卡 · 161 个样式 · 161 条动态样片 · 已验收成片模板**
+**可复用的 Remotion 镜头库与 `video-shotcraft` Agent Skill：276 个镜头 ID · 174 个可执行镜头 · 159 条在线视频预览**
 
 [English](README.md) | [中文](README_CN.md) | [日本語](README_JA.md)
 
 </div>
 
-**video-shotcraft** 是一个把 Claude Code / Codex 变成动效工作室的 AI agent skill：
+**Video Shot Library** 是本项目统一使用的仓库和产品名称，`video-shotcraft`
+保留为兼容的 AI Agent Skill 名称。它可以把 Claude Code / Codex 变成动效工作室：
 把你的产品交给它，它会用 [Remotion](https://www.remotion.dev/) 完成分镜、动画
 和声音设计，产出一支电影感的宣传片 / 营销视频 / 发布视频 / 功能演示——
 真实页面截图、2.5D 运镜、节奏卡点和电影级 SFX 全部包含。
 
-本仓库不包含预览视频文件，克隆后可直接使用镜头源码、配方和配置；动态预览请访问
+仓库中的源码、镜头配方、配置与本地 Remotion Player 可以离线使用。
+体积较大的视频预览文件不进入 Git；完整动态预览请访问
 [在线镜头库](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/)。
 
 ## 🎬 效果预览
@@ -71,7 +73,7 @@ ln -s "$(pwd)" ~/.codex/skills/video-shotcraft    # Codex
 ```
 
 如果没有指定镜头卡，skill 会先介绍现成成片模板并询问是否采用；
-也可以先在 [Gallery](https://vincentwei1021.github.io/video-shotcraft/) 里挑好镜头再开始。
+也可以先在 [Gallery](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/) 里挑好镜头再开始。
 
 ## 📼 成片模板：Ink Press（墨压）
 
@@ -114,9 +116,10 @@ agent 会替换成目标产品的截图、文案和品牌信息，复现同等�
 
 | 内容 | 说明 |
 | --- | --- |
-| 104 张镜头配方卡 | 记录用途、能量、建议时长、参数、实现要点与已知坑 |
-| 161 条动态样片 | 覆盖 161 个样式，可在在线 Gallery 中直接预览、搜索和筛选 |
-| Remotion 参考实现 | 每张卡对应经过调校的 TSX demo，包含实际缓动和时序参数 |
+| 276 个稳定镜头 ID | 174 个可执行 Remotion 镜头与 102 个参考镜头，统一搜索和筛选 |
+| 159 条在线视频预览 | 通过在线 Gallery 查看；体积较大的视频文件不进入 Git |
+| 104 张 video-shotcraft 镜头配方卡 | 记录用途、能量、建议时长、参数、实现要点与已知坑 |
+| Remotion 参考实现 | 经过调校的 TSX demo 与本地 Player，包含实际缓动和时序参数 |
 | 完整成片模板 | 36.2 秒、1920×1080、30fps、10 镜头的纸墨琥珀风产品宣传片 |
 | 组件与素材 | 2.5D 页面相机、字幕、闪切、数字滚动、音效和素材采集脚本 |
 | 制作方法论 | 从素材采集、风格定调和分镜，到声音设计、节奏卡点与最终验收 |
@@ -127,7 +130,7 @@ agent 会替换成目标产品的截图、文案和品牌信息，复现同等�
 ## 🗂 项目结构
 
 ```text
-video-shotcraft/
+Video-Shot-Library/
 ├── SKILL.md                 # Agent 使用入口与核心制作规则
 ├── references/
 │   ├── pipeline.md          # 完整制作流水线
@@ -151,7 +154,9 @@ video-shotcraft/
 
 ## 🎯 统一 Remotion 调用接口（Shot Runtime）
 
-本仓库提供了一套编程式镜头调用接口，可在代码中通过稳定 ID 直接获取可编辑的 Remotion 镜头数据与组件。
+本仓库提供了一套编程式镜头调用接口，可在代码中通过稳定 ID 直接获取可编辑的
+Remotion 镜头数据与组件。当前接口随 GitHub 源码分发，尚未发布为 npm 包；
+下面示例适用于克隆仓库内的 Remotion 文件。
 
 ```tsx
 import {
@@ -159,22 +164,24 @@ import {
   listShots,
   searchShots,
   getShotControls,
-} from "video-shotcraft-local-library/shot-runtime";
+} from "./shot-runtime";
 
 const shot = getShot("remocn/hand-count");
 
-if (shot.kind === "executable") {
-  const props = shot.createProps({
-    primaryColor: "#ff5a1f",
-    custom: { from: 0, to: 2026 },
-  });
-
-  const composition = shot.createComposition({
-    durationInFrames: 120,
-  });
-
-  export const Scene = () => <shot.Component {...props} />;
+if (shot.kind !== "executable") {
+  throw new Error("该镜头只有参考预览");
 }
+
+const props = shot.createProps({
+  primaryColor: "#ff5a1f",
+  custom: { from: 0, to: 2026 },
+});
+
+const composition = shot.createComposition({
+  durationInFrames: 120,
+});
+
+export const Scene = () => <shot.Component {...props} />;
 ```
 
 **接口概览：**
@@ -204,11 +211,18 @@ if (shot.kind === "executable") {
 
 `assets/audio/` 中的音效可按各自授权条件使用，来源与许可信息见
 [ATTRIBUTION.md](assets/audio/ATTRIBUTION.md)。
+`pop.mp3`、`typewriter.mp3` 与 `bgm-tech-house.mp3` 的来源尚未完全确认，
+商用前必须复核或替换。
 
 模板内的产品截图为演示素材。对外发布成片前，请替换为目标产品自己的截图，
 并确认其中的数据、客户信息和个人信息是否需要脱敏。
 
 ## 🙏 致谢
+
+本仓库基于魏毅豪创建并以 Apache 2.0 发布的
+[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)
+继续开发。仓库保留原始版权和许可证；Video Shot Library 在此基础上增加了统一目录、
+本地 Player、中文元数据、镜头分级与 Shot Runtime 接口。
 
 本库中许多镜头配方源自对优秀官方产品宣传片动效语言的研究学习——包括
 **ClickUp、Perplexity、Slack、Notion、Figma、Framer、Bear、Raycast、
@@ -232,10 +246,4 @@ Pitch、Miro、Superhuman、Loom** 等产品的宣传片。镜头卡记录的是
 
 ## ⭐ Star 历史
 
-<a href="https://www.star-history.com/?repos=Vincentwei1021%2Fvideo-shotcraft&type=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&theme=dark&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-  </picture>
-</a>
+[在 Star History 查看正式仓库](https://www.star-history.com/?repos=Hi-Yxzz%2FVideo-Shot-Library&type=date&legend=top-left)。

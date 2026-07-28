@@ -16,10 +16,12 @@ import {
 } from "./shot-categories.mjs";
 import { applyShotMetadata } from "./shot-metadata.mjs";
 
-const UPSTREAM_BASE_URL =
+// Retained only as the trusted origin for historical preview media metadata.
+// The canonical project repository and Gallery are defined separately.
+const LEGACY_UPSTREAM_BASE_URL =
   "https://vincentwei1021.github.io/video-shotcraft/";
-const UPSTREAM_ORIGIN = "https://vincentwei1021.github.io";
-const UPSTREAM_MEDIA_PREFIX = "/video-shotcraft/media/";
+const LEGACY_UPSTREAM_ORIGIN = "https://vincentwei1021.github.io";
+const LEGACY_UPSTREAM_MEDIA_PREFIX = "/video-shotcraft/media/";
 const PROJECT_REPOSITORY_URL =
   "https://github.com/Hi-Yxzz/Video-Shot-Library";
 const RECIPE_BASE_URL =
@@ -254,12 +256,12 @@ function validateLocal(local) {
 
 function resolvePreviewUrl(value, errorMessage) {
   try {
-    const url = new URL(value, UPSTREAM_BASE_URL);
+    const url = new URL(value, LEGACY_UPSTREAM_BASE_URL);
     if (
       url.protocol !== "https:" ||
-      url.origin !== UPSTREAM_ORIGIN ||
-      !url.pathname.startsWith(UPSTREAM_MEDIA_PREFIX) ||
-      url.pathname === UPSTREAM_MEDIA_PREFIX ||
+      url.origin !== LEGACY_UPSTREAM_ORIGIN ||
+      !url.pathname.startsWith(LEGACY_UPSTREAM_MEDIA_PREFIX) ||
+      url.pathname === LEGACY_UPSTREAM_MEDIA_PREFIX ||
       hasUnsafeEncodedSegment(url.pathname)
     ) {
       throw new TypeError(errorMessage);

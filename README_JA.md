@@ -3,29 +3,31 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/logo-mark-reverse.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/logo-mark.svg">
-  <img alt="video-shotcraft logo" src="./assets/brand/logo-mark.svg" width="112" height="112">
+  <img alt="Video Shot Library logo" src="./assets/brand/logo-mark.svg" width="112" height="112">
 </picture>
 
-<h1>video-shotcraft</h1>
+<h1>Video Shot Library</h1>
 
 [![GitHub stars](https://img.shields.io/github/stars/Hi-Yxzz/Video-Shot-Library)](https://github.com/Hi-Yxzz/Video-Shot-Library/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Hi-Yxzz/Video-Shot-Library)](https://github.com/Hi-Yxzz/Video-Shot-Library/network/members)
 [![Gallery](https://img.shields.io/badge/Gallery-live%20previews-d3923c)](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/)
 
-**映画のような製品動画を制作するためのエージェントスキル：104 種類のショットレシピカード · 161 種類のスタイル · 161 本のモーションプレビュー · 実制作に対応したテンプレート**
+**再利用可能な Remotion ショットライブラリと `video-shotcraft` Agent Skill：276 個のショット ID · 174 個の実行可能ショット · 159 本のオンライン動画プレビュー**
 
 [English](README.md) | [中文](README_CN.md) | [日本語](README_JA.md)
 
 </div>
 
-**video-shotcraft** は、Claude Code や Codex をモーションデザインスタジオに
-変える AI エージェントスキルです。製品を指定するだけで、ストーリーボード、アニメーション、
+**Video Shot Library** は、このプロジェクトの正式なリポジトリ名および
+プロダクト名です。`video-shotcraft` は互換性のために維持される AI Agent Skill 名です。
+Claude Code や Codex をモーションデザインスタジオに変え、製品を指定するだけで、
+ストーリーボード、アニメーション、
 サウンドデザインを行い、[Remotion](https://www.remotion.dev/) を使って映画のようなプロモーション、
 マーケティング、ローンチ、デモ動画を制作します。実際のページキャプチャ、2.5D カメラワーク、
 ビートに同期したカット、映画品質の SFX も含まれます。
 
-プレビュー動画はこのリポジトリに含まれません。再利用可能なショットのソースと設定は
-クローンして利用し、モーションプレビューは
+ソース、レシピ、設定、ローカル Remotion Player はオフラインで利用できます。
+容量の大きい動画プレビューは Git に含まれないため、完全なモーションプレビューは
 [オンライン Gallery](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/) で確認できます。
 
 ## 🎬 ショーケース
@@ -75,7 +77,7 @@ Design a product close-up inspired by spotlight-hero-card.
 
 ショットカードを指定しない場合、スキルは最初に内蔵の動画テンプレートを
 紹介し、それを使うか確認します。作業を始める前に
-[Gallery](https://vincentwei1021.github.io/video-shotcraft/) でショットを選ぶこともできます。
+[Gallery](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/) でショットを選ぶこともできます。
 
 ## 📼 動画テンプレート：Ink Press
 
@@ -120,9 +122,10 @@ Use video-shotcraft to make a promo for my product with the Ink Press template.
 
 | 内容 | 説明 |
 | --- | --- |
-| 104 種類のショットレシピカード | 目的、エネルギー、推奨時間、パラメータ、実装上の注意点、既知の落とし穴 |
-| 161 本のモーションプレビュー | 161 種類のスタイルを網羅し、オンライン Gallery で検索と絞り込みが可能 |
-| Remotion 実装 | 各カードの実際のイージングとタイミングパラメータを含む、調整済みの TSX デモ |
+| 276 個の安定したショット ID | 174 個の実行可能な Remotion ショットと 102 個の参照ショット |
+| 159 本のオンライン動画プレビュー | オンライン Gallery で閲覧可能。大容量動画は Git に含まれません |
+| 104 種類の video-shotcraft レシピカード | 目的、エネルギー、推奨時間、パラメータ、実装上の注意点、既知の落とし穴 |
+| Remotion 実装 | 調整済みの TSX デモとローカル Player |
 | 完全な動画テンプレート | 検証済みの 36.2 秒、1920×1080、30fps、10 ショットの製品プロモーション |
 | コンポーネントとアセット | 2.5D ページカメラ、キャプション、フラッシュカット、数字ロール、SFX、キャプチャスクリプト |
 | 制作手法 | キャプチャ、ビジュアルディレクション、ストーリーボード、サウンドデザイン、ビート同期、最終 QA |
@@ -134,7 +137,7 @@ Use video-shotcraft to make a promo for my product with the Ink Press template.
 ## 🗂 リポジトリ構成
 
 ```text
-video-shotcraft/
+Video-Shot-Library/
 ├── SKILL.md                 # Agent entry point and core production rules
 ├── references/
 │   ├── pipeline.md          # End-to-end production workflow
@@ -160,12 +163,20 @@ video-shotcraft/
 
 `assets/audio/` にある音声ファイルは、それぞれのライセンス条件に従って使用できます。
 出典とライセンスの詳細については、[ATTRIBUTION.md](assets/audio/ATTRIBUTION.md)を参照してください。
+`pop.mp3`、`typewriter.mp3`、`bgm-tech-house.mp3` は出典が完全には確認されていません。
+商用利用前に再確認するか、別の素材へ差し替えてください。
 
 テンプレートに含まれる製品スクリーンショットはデモ用アセットです。公開前に
 対象製品のスクリーンショットへ差し替え、製品、顧客、または個人に関するデータを
 匿名化する必要があるか確認してください。
 
 ## 🙏 謝辞
+
+このリポジトリは、Wei Yihao 氏が作成し Apache 2.0 で公開した
+[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)
+を基盤としています。元の著作権表示とライセンスを維持しながら、Video Shot Library
+では統合カタログ、ローカル Player、中国語メタデータ、ショット評価、
+Shot Runtime インターフェースを追加しています。
 
 このライブラリの多くのショットレシピは、優れた公式製品動画のモーション表現を
 研究してまとめたものです。対象には **ClickUp、Perplexity、Slack、Notion、
@@ -190,10 +201,4 @@ Figma、Framer、Bear、Raycast、Pitch、Miro、Superhuman、Loom** のプロ�
 
 ## ⭐ Star 履歴
 
-<a href="https://www.star-history.com/?repos=Vincentwei1021%2Fvideo-shotcraft&type=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&theme=dark&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-  </picture>
-</a>
+[Star History で正式リポジトリを見る](https://www.star-history.com/?repos=Hi-Yxzz%2FVideo-Shot-Library&type=date&legend=top-left)。

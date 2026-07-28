@@ -123,7 +123,7 @@ export function ShotLibrary() {
         <div className="hero-copy">
           <div>
             <p className="eyebrow">MOTION REFERENCE LIBRARY</p>
-            <h1>Yxzz的镜头库</h1>
+            <h1>快速找到下一镜</h1>
             <p className="hero-description">
               搜索、筛选并预览可复用的视频镜头，点击卡片查看完整配方与变体。
             </p>
@@ -296,7 +296,16 @@ export function ShotLibrary() {
           LOCAL SHOT INDEX · {stats.cardCount} RECIPES
         </span>
         <p className="site-footer-disclosure">
-          原始镜头目录改编自{" "}
+          Video Shot Library 由{" "}
+          <a
+            href="https://github.com/Hi-Yxzz/Video-Shot-Library"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hi-Yxzz/Video-Shot-Library
+            <span aria-hidden="true">↗</span>
+          </a>
+          维护；原始 video-shotcraft 镜头配方来自{" "}
           <a
             href="https://github.com/Vincentwei1021/video-shotcraft"
             target="_blank"

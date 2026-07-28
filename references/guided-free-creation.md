@@ -123,7 +123,7 @@ Styleframe 用来确认静态视觉语言，不能单独证明缓动、运镜速
 
 ## 5. Gallery 镜头名称解析
 
-Gallery（https://vincentwei1021.github.io/video-shotcraft/）只是用户浏览和挑选
+Gallery（https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/）只是用户浏览和挑选
 动态样片的界面，镜头定义和实现源码已经包含在本仓库。用户不需要描述动画，
 只需复制并提供镜头名。
 
@@ -134,8 +134,8 @@ Gallery（https://vincentwei1021.github.io/video-shotcraft/）只是用户浏览
 2. 用索引中的 `source` 定位并完整读取 `references/shots/*.md`；
 3. 按卡片“参考实现”的明确路径，把具体样式解析到准确的 demo TSX；若文档只写
    demo 目录，读取目录文件并根据导出名、注释和样式语义确定对应文件；
-4. 将索引中的 `styles[].media.url` 解析为本地 `gallery/media/` 参考样片，并在
-   设计 spec 记录：卡名、style-key、卡片文档、准确 demo TSX、参考样片；
+4. 在在线 Gallery 查看参考样片，并在设计 spec 记录：卡名、style-key、
+   卡片文档、准确 demo TSX、参考样片 URL；视频二进制不随 Git 仓库分发；
 5. 如卡片需要通用组件，再读取并复制 `assets/lib/` 的对应文件；
 6. 保留 demo 中已经调校的缓动、时值配比、遮罩时机和“已知坑/命门”参数；
 7. 只替换目标产品的截图、布局坐标、文案、品牌 token 和必要的构图参数。

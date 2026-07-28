@@ -3,29 +3,31 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/logo-mark-reverse.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/logo-mark.svg">
-  <img alt="video-shotcraft logo" src="./assets/brand/logo-mark.svg" width="112" height="112">
+  <img alt="Video Shot Library logo" src="./assets/brand/logo-mark.svg" width="112" height="112">
 </picture>
 
-<h1>video-shotcraft</h1>
+<h1>Video Shot Library</h1>
 
 [![GitHub stars](https://img.shields.io/github/stars/Hi-Yxzz/Video-Shot-Library)](https://github.com/Hi-Yxzz/Video-Shot-Library/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Hi-Yxzz/Video-Shot-Library)](https://github.com/Hi-Yxzz/Video-Shot-Library/network/members)
 [![Gallery](https://img.shields.io/badge/Gallery-live%20previews-d3923c)](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/)
 
-**An agent skill for crafting cinematic product videos: 104 shot recipe cards · 161 styles · 161 motion previews · a production-ready template**
+**A reusable Remotion shot library and the `video-shotcraft` agent skill: 276 shot IDs · 174 executable shots · 159 hosted video previews**
 
 [English](README.md) | [中文](README_CN.md) | [日本語](README_JA.md)
 
 </div>
 
-**video-shotcraft** is an AI agent skill that turns Claude Code or Codex into a
-motion-design studio: point it at your product and it storyboards, animates, and
-sound-designs a cinematic promo, marketing, launch, or demo video with
+**Video Shot Library** is the canonical repository and product name.
+`video-shotcraft` remains the compatible AI agent skill name. It turns Claude
+Code or Codex into a motion-design studio: point it at your product and it
+storyboards, animates, and sound-designs a cinematic promo, marketing, launch, or demo video with
 [Remotion](https://www.remotion.dev/) — real page captures, 2.5D camera moves,
 beat-synced cuts, and film-grade SFX included.
 
-Preview video binaries are intentionally excluded from this repository. Clone it
-for reusable shot source files and configuration, and use the
+The repository is offline-capable for source code, recipes, configuration, and
+local Remotion players. Hosted preview video binaries are intentionally excluded
+from Git. Use the
 [online Gallery](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/) for
 motion previews.
 
@@ -76,7 +78,7 @@ Design a product close-up inspired by spotlight-hero-card.
 
 If no shot card is specified, the skill introduces the built-in video template
 first and asks whether to use it; you can also pick shots in the
-[Gallery](https://vincentwei1021.github.io/video-shotcraft/) before starting.
+[Gallery](https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/) before starting.
 
 ## 📼 Video template: Ink Press
 
@@ -120,9 +122,10 @@ With these three flags, frame renders from the bundled template work.
 
 | Content | Description |
 | --- | --- |
-| 104 shot recipe cards | Purpose, energy, suggested duration, parameters, implementation notes, and known pitfalls |
-| 161 motion previews | Covering 161 styles; searchable and filterable in the online Gallery |
-| Remotion implementations | Tuned TSX demos containing the actual easing and timing parameters for each card |
+| 276 stable shot IDs | 174 executable Remotion shots and 102 reference shots in one searchable catalog |
+| 159 hosted video previews | Available in the online Gallery; large video binaries are excluded from Git |
+| 104 video-shotcraft recipe cards | Purpose, energy, suggested duration, parameters, implementation notes, and known pitfalls |
+| Remotion implementations | Tuned TSX demos and local players containing the actual easing and timing parameters |
 | Complete video template | A validated 36.2-second, 1920×1080, 30fps product promo with 10 shots |
 | Components and assets | 2.5D page camera, captions, flash cuts, digit rolls, SFX, and capture scripts |
 | Production methodology | Capture, visual direction, storyboarding, sound design, beat sync, and final QA |
@@ -134,7 +137,7 @@ other motion projects.
 ## 🗂 Repository structure
 
 ```text
-video-shotcraft/
+Video-Shot-Library/
 ├── SKILL.md                 # Agent entry point and core production rules
 ├── references/
 │   ├── pipeline.md          # End-to-end production workflow
@@ -160,12 +163,20 @@ the [production pipeline](references/pipeline.md), and the
 
 Audio files under `assets/audio/` may be used according to their respective license terms.
 See [ATTRIBUTION.md](assets/audio/ATTRIBUTION.md) for sources and license details.
+The sources for `pop.mp3`, `typewriter.mp3`, and `bgm-tech-house.mp3` are not
+fully verified; replace or re-check them before commercial use.
 
 Product screenshots bundled with the template are demonstration assets. Replace them with
 screenshots from the target product before publishing, and verify whether any product,
 customer, or personal data needs to be anonymized.
 
 ## 🙏 Acknowledgements
+
+This repository builds on
+[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft),
+originally created by Wei Yihao and distributed under Apache 2.0. The original
+copyright and license are preserved; Video Shot Library adds the unified catalog,
+local players, Chinese metadata, grading, and the Shot Runtime interface.
 
 Many shot recipes in this library were distilled by studying the motion language
 of outstanding official product films — including promos from **ClickUp,
@@ -190,10 +201,4 @@ Special thanks to:
 
 ## ⭐ Star history
 
-<a href="https://www.star-history.com/?repos=Vincentwei1021%2Fvideo-shotcraft&type=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&theme=dark&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Vincentwei1021/video-shotcraft&type=date&legend=top-left&sealed_token=DQ8_yn0k8in6tP80CRd9Ghuk1fcdEW7poFh9ticGB3wMNO-E_i6g51sUiQWCAQYP0u0bjRweuIfGoRS8FnrIz86oFp1lcl5zu2vrEJrQOoNvwdUSwmm8XNPkAiln1o-EBAX0uU8k6ReIlSRufGLqpoxsWshMSZ9mmok6ox5XXIUO77b7zOgp2yRIH6yR" />
-  </picture>
-</a>
+[View the canonical repository on Star History](https://www.star-history.com/?repos=Hi-Yxzz%2FVideo-Shot-Library&type=date&legend=top-left).

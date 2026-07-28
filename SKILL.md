@@ -3,10 +3,12 @@ name: video-shotcraft
 description: Create cinematic product videos from shot recipe cards, a validated template, and code/audio assets (Remotion + real page screenshots + 2.5D camera moves + beat-synced cuts + sound design). Use when the user asks to turn a frontend project or webpage into a product video, says "use video-shotcraft to make a video/promo", names the Ink Press template or asks to reproduce its effect, or wants a single shot card's motion. 用镜头配方卡 + 已验收模板 + 代码/音频资产制作电影感产品视频（Remotion + 真实页面截图 + 2.5D 运镜 + 节奏卡点 + 声音设计）。当用户要求"用 video-shotcraft 做视频/宣传片"、把前端项目/网页做成产品视频、点名 Ink Press 模板或要求复刻模板片效果，或要用镜头卡做单个动效镜头时使用。
 ---
 
-# video-shotcraft：电影感产品视频制作
+# Video Shot Library：电影感产品视频制作
 
-一个自包含的制作能力库：104 张镜头配方卡（附 demo 实现源码与动态样片
-画廊）、一支已验收的完整宣传片模板、可复用组件与音频资产、六阶段工作流。
+`video-shotcraft` 是本仓库保留兼容的 Skill 名称。Video Shot Library 是一个
+源码自包含的制作能力库：104 张镜头配方卡（附 demo 实现源码）、一支已验收的
+完整宣传片模板、可复用组件与音频资产、六阶段工作流。
+预览视频二进制不进入 Git 仓库，完整动态预览统一使用在线镜头库。
 当前 focus 是 web/桌面产品宣传片，但镜头卡本身是通用动效词汇——
 也可以单独抽卡做任意视频里的单个镜头。
 
@@ -33,7 +35,7 @@ description: Create cinematic product videos from shot recipe cards, a validated
 - Agent 推荐哪一种模式及其依据和取舍。
 
 然后明确询问：**“根据上面的产品检查，我推荐使用 ×× 模式。要按这个模式继续吗？”**
-同时告知用户：可前往 https://vincentwei1021.github.io/video-shotcraft/
+同时告知用户：可前往 https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/
 浏览动态样片，并挑选希望在视频中使用的动效镜头。
 
 用户尚未提供可检查的项目或页面时，简要介绍三种模式再询问；不要仅因 Ink Press
@@ -183,13 +185,15 @@ SFX；只有完整分镜确认后才进入最终素材采集。用户从 Gallery
   helpers(rand/shake/camera/motion)。FlatPanel 与 helpers/camera 需要
   `three` + `@react-three/fiber` + `@remotion/three` 依赖，其余仅需 remotion。
 - `assets/scripts/capture-template.mjs` 复制后改顶部 CONFIG（BASE/路由/选择器）。
-- `assets/audio/` 音效直接复制使用（免费商用授权，见 audio/ATTRIBUTION.md）；
+- `assets/audio/` 音效按 `audio/ATTRIBUTION.md` 的逐项授权记录使用；
+  `pop.mp3`、`typewriter.mp3` 与 `bgm-tech-house.mp3` 的来源尚未完全确认，
+  商用前必须复核或替换；
   `assets/audio/bgm/` 是节奏感强的 BGM 备选。
 - `demos/` 各卡实现源码：多数为自包含灰阶 demo（部分 import
   `demos/_fixtures/Fixtures.tsx` 的假 UI 场景件，个别 import
   `demos/_textures/` 的真实页面纹理），copy 进 Remotion 项目即可跑。
 - `template/` 完整可渲染工程：`npm install && npx remotion render
   src/index.ts AiflPromo out/promo.mp4`。
-- `gallery/` 静态画廊：`cd gallery && python3 -m http.server 4178`
-  后浏览器打开，104 卡 161 条动态样片可浏览/搜索/多选复制卡名——
-  适合让用户看着样片挑镜头。
+- `gallery/` 保留静态画廊源码和索引；预览视频二进制不随 Git 仓库分发。
+  完整预览、搜索和筛选请使用
+  `https://video-shotcraft-local-2026.yxzzzzz.chatgpt.site/`。
