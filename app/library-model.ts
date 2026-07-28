@@ -60,7 +60,8 @@ export type LibraryCatalog = {
   cards: LibraryCard[];
   categories: Record<string, CategoryLabel>;
   generatedAt: string;
-  revision: string;
+  upstreamGeneratedAt: string;
+  upstreamRevision: string;
   stats: LibraryStats;
   gradeCounts: Record<"S" | "A" | "B", number>;
 };

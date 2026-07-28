@@ -130,6 +130,10 @@ With these three flags, frame renders from the bundled template work.
 | Components and assets | 2.5D page camera, captions, flash cuts, digit rolls, SFX, and capture scripts |
 | Production methodology | Capture, visual direction, storyboarding, sound design, beat sync, and final QA |
 
+All 104 Video Shotcraft recipe cards remain available in the source tree. The
+unified catalog currently indexes 102 of them; `letterspace-materialize` and
+`text-as-mask` are excluded by the current catalog configuration.
+
 The toolkit primarily targets web and desktop product promos, while individual
 shot cards can also be used in feature demos, brand films, launch videos, and
 other motion projects.

@@ -7,7 +7,7 @@ description: Create cinematic product videos from shot recipe cards, a validated
 
 `video-shotcraft` 是本仓库保留兼容的 Skill 名称。Video Shot Library 是一个
 源码自包含的制作能力库：104 张镜头配方卡（附 demo 实现源码）、一支已验收的
-完整宣传片模板、可复用组件与音频资产、六阶段工作流。
+完整宣传片模板、可复用组件与音频资产、八阶段制作工作流。
 预览视频二进制不进入 Git 仓库，完整动态预览统一使用在线镜头库。
 当前 focus 是 web/桌面产品宣传片，但镜头卡本身是通用动效词汇——
 也可以单独抽卡做任意视频里的单个镜头。
