@@ -123,7 +123,7 @@ export function ShotLibrary() {
         <div className="hero-copy">
           <div>
             <p className="eyebrow">MOTION REFERENCE LIBRARY</p>
-            <h1>快速找到下一镜</h1>
+            <h1>Yxzz的镜头库</h1>
             <p className="hero-description">
               搜索、筛选并预览可复用的视频镜头，点击卡片查看完整配方与变体。
             </p>

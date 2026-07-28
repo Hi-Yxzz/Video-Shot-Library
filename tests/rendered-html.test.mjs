@@ -33,9 +33,9 @@ test("server-renders the local shot library product shell", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Video Shotcraft｜本地镜头库<\/title>/i);
+  assert.match(html, /<title>Yxzz的镜头库<\/title>/i);
   assert.doesNotMatch(html, /VIDEO SHOTCRAFT|LOCAL INDEX \/ CN/);
-  assert.match(html, /快速找到下一镜/);
+  assert.match(html, /Yxzz的镜头库/);
   assert.match(html, /276/);
   assert.match(html, /333/);
   assert.match(html, /搜索镜头/);
@@ -91,7 +91,7 @@ test("removes starter-only preview code and metadata", async () => {
 
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   assert.doesNotMatch(page, /codex-preview|_sites-preview|SkeletonPreview/);
-  assert.match(layout, /title:\s*"Video Shotcraft｜本地镜头库"/);
+  assert.match(layout, /title:\s*"Yxzz的镜头库"/);
   assert.match(
     layout,
     /description:\s*"276 个镜头、159 个 MP4 预览与 174 个本地 TSX Player 实现索引。"/,
