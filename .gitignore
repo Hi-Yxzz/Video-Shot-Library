@@ -43,3 +43,5 @@ next-env.d.ts
 *.m4v
 *.mov
 *.webm
+!public/media/a-roll/
+!public/media/a-roll/*.mp4
