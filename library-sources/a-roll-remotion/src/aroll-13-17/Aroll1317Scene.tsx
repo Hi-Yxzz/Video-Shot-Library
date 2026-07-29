@@ -16,6 +16,33 @@ const enter = (frame: number, start: number, duration = 10) =>
     extrapolateRight: "clamp",
   });
 
+const ForegroundPortrait = ({
+  props,
+  frame,
+}: {
+  props: Aroll1317Props;
+  frame: number;
+}) => (
+  <AbsoluteFill
+    style={{
+      WebkitMaskImage:
+        "radial-gradient(ellipse 14.5% 36% at 57% 31%, #000 98%, transparent 100%), radial-gradient(ellipse 39% 42% at 57% 108%, #000 98%, transparent 100%)",
+      WebkitMaskComposite: "source-over",
+      maskImage:
+        "radial-gradient(ellipse 14.5% 36% at 57% 31%, #000 98%, transparent 100%), radial-gradient(ellipse 39% 42% at 57% 108%, #000 98%, transparent 100%)",
+      maskComposite: "add",
+    }}
+  >
+    <PhotoPresenterPanel {...props} frame={frame} />
+    <AbsoluteFill
+      style={{
+        background:
+          "linear-gradient(90deg, rgba(29,30,93,.4), rgba(14,20,54,.05), rgba(13,24,74,.38))",
+      }}
+    />
+  </AbsoluteFill>
+);
+
 const AgentCards = ({
   props,
   frame,
@@ -609,6 +636,10 @@ export const Aroll1317Scene = (props: Aroll1317Props) => {
           <ClaimSequence props={props} frame={frame} />
         ) : null}
       </div>
+      {props.variant === "title-build" ||
+      props.variant === "claim-sequence" ? (
+        <ForegroundPortrait props={props} frame={frame} />
+      ) : null}
     </AbsoluteFill>
   );
 };
