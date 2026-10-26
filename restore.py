@@ -46,11 +46,14 @@ def main():
             asset_dir = args.assets or cache / 'downloads'
             if not args.assets:
                 asset_dir.mkdir()
+                # The local proxy interrupted HTTP/2 transfers during migration.
+                transfer_env = os.environ.copy()
+                transfer_env['GODEBUG'] = 'http2client=0'
                 subprocess.run([
                     'gh', 'release', 'download', manifest['releaseTag'],
                     '--repo', manifest['repository'], '--pattern', 'media-objects-*.tar',
                     '--dir', str(asset_dir),
-                ], check=True)
+                ], check=True, env=transfer_env)
             object_dir = cache / 'objects'
             object_dir.mkdir()
             for asset in manifest['mediaAssets']:
