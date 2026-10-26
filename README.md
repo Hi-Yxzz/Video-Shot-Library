@@ -47,12 +47,13 @@ python3 restore.py --verify
 - 文件记录共 **12,603** 条，含源码、文档、素材、预览与镜头复刻 SOP。
 - 去重媒体共 **1032** 个对象（其中 **304** 个视频），约 **1026.8 MiB**，恢复为原来的 **1987** 个素材路径。
 - [manifest.json](manifest.json) 保存各文件的原相对路径、大小、SHA-256、存储位置及源码分支与提交。
-- 归档附件中的四份 `.bundle` 保存本地 Git 分支和标签历史；`SHA256SUMS` 提供所有附件的 SHA-256。
+- 归档附件中的四份 Git bundle 备份保存本地 Git 分支和标签历史；较大 bundle 按 48 MiB 分片保存；`SHA256SUMS` 提供所有附件的 SHA-256。
 
 恢复某个工程的提交历史，例如：
 
 ```bash
-gh release download local-remotion-archive-2026-10-26 --repo Hi-Yxzz/Video-Shot-Library --pattern Video-Shot-Library-history.bundle
+gh release download local-remotion-archive-2026-10-26 --repo Hi-Yxzz/Video-Shot-Library --pattern 'Video-Shot-Library-history.bundle.part-*'
+cat Video-Shot-Library-history.bundle.part-* > Video-Shot-Library-history.bundle
 git clone Video-Shot-Library-history.bundle library-history
 ```
 
