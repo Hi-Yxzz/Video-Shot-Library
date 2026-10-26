@@ -18,6 +18,13 @@
 
 </div>
 
+## 本地 Remotion 镜头库统一归档
+
+[浏览全部本地版本的源码与恢复说明](https://github.com/Hi-Yxzz/Video-Shot-Library/tree/archive/remotion-libraries-2026-10-26) · [下载媒体与 Git 历史备份](https://github.com/Hi-Yxzz/Video-Shot-Library/releases/tag/local-remotion-archive-2026-10-26)
+
+2026-10-26 已统一归档 10 份镜头库与工具包快照、12,603 个原始文件，以及 304 个去重视频及配套图片、音效、字体。包含隐藏工作副本和未提交改动；克隆归档分支后运行 `python3 restore.py` 即可恢复媒体并逐文件核验。
+
+
 **Video Shot Library** is the canonical repository and product name.
 `video-shotcraft` remains the compatible AI agent skill name. It turns Claude
 Code or Codex into a motion-design studio: point it at your product and it
