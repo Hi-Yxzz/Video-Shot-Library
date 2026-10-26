@@ -1,0 +1,18 @@
+{
+  "rollType": "B-roll",
+  "sources": [
+    {
+      "id": "remotion-shot-grades",
+      "manifestPath": "../remotion-shot-grades/shots.json",
+      "format": "json-array",
+      "idField": "id",
+      "titleField": "name",
+      "tagFields": [
+        "category",
+        "grade",
+        "family",
+        "source"
+      ]
+    }
+  ]
+}

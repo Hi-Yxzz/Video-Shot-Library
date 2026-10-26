@@ -1,0 +1,41 @@
+export const REFERENCE_LAYOUT = {
+  agentCard: {
+    left: 56,
+    top: 68,
+    width: 686,
+    height: 340,
+    titleSize: 88,
+  },
+  numberedRow: {
+    left: 56,
+    top: 93,
+    width: 672,
+    height: 168,
+    gap: 64,
+    numberSize: 150,
+    textSize: 72,
+  },
+  workflow: {
+    taskLeft: 76,
+    taskTop: 150,
+    taskWidth: 405,
+    taskHeight: 153,
+    boardRight: 70,
+    boardTop: 170,
+    boardWidth: 650,
+    boardHeight: 700,
+  },
+  titleBuild: {
+    left: 210,
+    top: 230,
+    fontSize: 430,
+  },
+  claim: {
+    left: 90,
+    right: 60,
+    firstTop: 250,
+    secondTop: 315,
+    fontSize: 210,
+    rotate: "-6deg",
+  },
+} as const;

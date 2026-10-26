@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-28",
+  "categories": [
+    {
+      "id": "A-roll",
+      "manifest": "A-roll/entries.json"
+    },
+    {
+      "id": "B-roll",
+      "manifest": "B-roll/sources.json"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "bit-3d-basic": {
+    "compositionId": "bit-3d-basic",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "3D Basic Scene",
+    "modulePath": "docs/src/bits/examples/scene-3d/3DBasic.tsx"
+  },
+  "bit-3d-elements": {
+    "compositionId": "bit-3d-elements",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "3D Elements Scene",
+    "modulePath": "docs/src/bits/examples/scene-3d/3DElements.tsx"
+  },
+  "bit-3d-step-timing-context": {
+    "compositionId": "bit-3d-step-timing-context",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Step-Aware Motion Timing",
+    "modulePath": "docs/src/bits/examples/scene-3d/StepTimingContext.tsx"
+  },
+  "bit-basic-code-block": {
+    "compositionId": "bit-basic-code-block",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Basic Code Block",
+    "modulePath": "docs/src/bits/examples/code-block/BasicCodeBlock.tsx"
+  },
+  "bit-basic-counter": {
+    "compositionId": "bit-basic-counter",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Basic Counter Animation",
+    "modulePath": "docs/src/bits/examples/animated-counter/BasicCounter.tsx"
+  },
+  "bit-blur-slide-word": {
+    "compositionId": "bit-blur-slide-word",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Blur In Animation",
+    "modulePath": "docs/src/bits/examples/animated-text/BlurSlideWord.tsx"
+  },
+  "bit-card-stack": {
+    "compositionId": "bit-card-stack",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "3D Card Stack",
+    "modulePath": "docs/src/bits/examples/staggered-motion/CardStack.tsx"
+  },
+  "bit-carousel-3d": {
+    "compositionId": "bit-carousel-3d",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "3D Carousel",
+    "modulePath": "docs/src/bits/examples/scene-3d/Carousel.tsx"
+  },
+  "bit-conic-gradient": {
+    "compositionId": "bit-conic-gradient",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Conic Gradient Rotation",
+    "modulePath": "docs/src/bits/examples/gradient-transition/ConicGradient.tsx"
+  },
+  "bit-counter-confetti": {
+    "compositionId": "bit-counter-confetti",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "Counter Confetti Celebration",
+    "modulePath": "docs/src/bits/examples/animated-counter/CounterConfetti.tsx"
+  },
+  "bit-cursor-flyover": {
+    "compositionId": "bit-cursor-flyover",
+    "collection": "remotion-bits",
+    "grade": "S",
+    "title": "Cursor Flyover",
+    "modulePath": "docs/src/bits/examples/scene-3d/CursorFlyover.tsx"
+  },
+  "bit-easings-visualizer": {
+    "compositionId": "bit-easings-visualizer",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Easings Visualizer",
+    "modulePath": "docs/src/bits/examples/staggered-motion/EasingsVisualizer.tsx"
+  },
+  "bit-fireflies": {
+    "compositionId": "bit-fireflies",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Fireflies",
+    "modulePath": "docs/src/bits/examples/particle-system/Fireflies.tsx"
+  },
+  "bit-flying-through-words": {
+    "compositionId": "bit-flying-through-words",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "Flying Through Words",
+    "modulePath": "docs/src/bits/examples/scene-3d/FlyingThroughWords.tsx"
+  },
+  "bit-fracture-reassemble": {
+    "compositionId": "bit-fracture-reassemble",
+    "collection": "remotion-bits",
+    "grade": "S",
+    "title": "Fracture Reassemble",
+    "modulePath": "docs/src/bits/examples/staggered-motion/FractureReassemble.tsx"
+  },
+  "bit-glitch-cycle": {
+    "compositionId": "bit-glitch-cycle",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Glitch Cycle",
+    "modulePath": "docs/src/bits/examples/animated-text/GlitchCycle.tsx"
+  },
+  "bit-glitch-in": {
+    "compositionId": "bit-glitch-in",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Glitch In",
+    "modulePath": "docs/src/bits/examples/animated-text/GlitchIn.tsx"
+  },
+  "bit-grid-stagger": {
+    "compositionId": "bit-grid-stagger",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Grid Stagger Reveal",
+    "modulePath": "docs/src/bits/examples/staggered-motion/GridStagger.tsx"
+  },
+  "bit-ken-burns": {
+    "compositionId": "bit-ken-burns",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "Ken Burns Effect",
+    "modulePath": "docs/src/bits/examples/scene-3d/KenBurns.tsx"
+  },
+  "bit-linear-gradient": {
+    "compositionId": "bit-linear-gradient",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Linear Gradient Transition",
+    "modulePath": "docs/src/bits/examples/gradient-transition/LinearGradient.tsx"
+  },
+  "bit-list-reveal": {
+    "compositionId": "bit-list-reveal",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "List Reveal",
+    "modulePath": "docs/src/bits/examples/staggered-motion/ListReveal.tsx"
+  },
+  "bit-matrix-rain": {
+    "compositionId": "bit-matrix-rain",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "Matrix Rain",
+    "modulePath": "docs/src/bits/examples/animated-text/MatrixRain.tsx"
+  },
+  "bit-mosaic-reframe": {
+    "compositionId": "bit-mosaic-reframe",
+    "collection": "remotion-bits",
+    "grade": "S",
+    "title": "Mosaic Reframe",
+    "modulePath": "docs/src/bits/examples/staggered-motion/MosaicReframe.tsx"
+  },
+  "bit-particles-fountain": {
+    "compositionId": "bit-particles-fountain",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Fountain Burst Particles",
+    "modulePath": "docs/src/bits/examples/particle-system/ParticlesFountain.tsx"
+  },
+  "bit-particles-grid": {
+    "compositionId": "bit-particles-grid",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Grid Snap Particles",
+    "modulePath": "docs/src/bits/examples/particle-system/ParticlesGrid.tsx"
+  },
+  "bit-particles-snow": {
+    "compositionId": "bit-particles-snow",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Falling Snow Particles",
+    "modulePath": "docs/src/bits/examples/particle-system/ParticlesSnow.tsx"
+  },
+  "bit-radial-gradient": {
+    "compositionId": "bit-radial-gradient",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Radial Gradient Transition",
+    "modulePath": "docs/src/bits/examples/gradient-transition/RadialGradient.tsx"
+  },
+  "bit-remotion-bits-promo": {
+    "compositionId": "bit-remotion-bits-promo",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "RemotionBits",
+    "modulePath": "docs/src/bits/examples/showcase/FeatureShowcase.tsx"
+  },
+  "bit-scene-3d-cube-nav": {
+    "compositionId": "bit-scene-3d-cube-nav",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Cube Navigation 3D",
+    "modulePath": "docs/src/bits/examples/scene-3d/CubeNavigation.tsx"
+  },
+  "bit-scrolling-columns": {
+    "compositionId": "bit-scrolling-columns",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "Scrolling Columns in 3D",
+    "modulePath": "docs/src/bits/examples/particle-system/ScrollingColumns.tsx"
+  },
+  "bit-terminal-3d": {
+    "compositionId": "bit-terminal-3d",
+    "collection": "remotion-bits",
+    "grade": "S",
+    "title": "3D Terminal",
+    "modulePath": "docs/src/bits/examples/scene-3d/Terminal3D.tsx"
+  },
+  "bit-transform3d-showcase": {
+    "compositionId": "bit-transform3d-showcase",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Transform3D Showcase",
+    "modulePath": "docs/src/bits/examples/scene-3d/Transform3DShowcase.tsx"
+  },
+  "bit-typing-code-block": {
+    "compositionId": "bit-typing-code-block",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Typing Code Block",
+    "modulePath": "docs/src/bits/examples/code-block/TypingCodeBlock.tsx"
+  },
+  "cli-simulation": {
+    "compositionId": "cli-simulation",
+    "collection": "remotion-bits",
+    "grade": "S",
+    "title": "CLI Simulation",
+    "modulePath": "docs/src/bits/examples/typewriter/CLISimulation.tsx"
+  },
+  "multitext-typewriter": {
+    "compositionId": "multitext-typewriter",
+    "collection": "remotion-bits",
+    "grade": "B",
+    "title": "Multi-Text Typewriter",
+    "modulePath": "docs/src/bits/examples/typewriter/MultiTextTypewriter.tsx"
+  },
+  "variable-speed-typewriter": {
+    "compositionId": "variable-speed-typewriter",
+    "collection": "remotion-bits",
+    "grade": "A",
+    "title": "Variable Speed & Typos",
+    "modulePath": "docs/src/bits/examples/typewriter/VariableSpeedTypewriter.tsx"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "../../library-sources/remocn/tsconfig.json",
+  "include": ["src", "../../library-sources/remocn/**/*.ts", "../../library-sources/remocn/**/*.tsx"]
+}

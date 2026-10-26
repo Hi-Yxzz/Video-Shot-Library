@@ -1,0 +1,47 @@
+node_modules/
+out/qa/
+template/out/
+# 发帖用社交封面图等本地素材，不进 skill 安装包
+assets/images/
+.DS_Store
+.synapse/
+__pycache__/
+CLAUDE.md
+AGENT.md
+PRODUCT.md
+
+# Sites / vinext starter
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+/coverage
+/.next/
+/.vinext/
+/out/
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env*
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+/dist/
+/.wrangler/
+/outputs/
+/work/
+/.worktrees/
+# Local preview assets are packaged for deployment but are not stored in Git.
+/public/media/*.mp4
+/public/posters/*.webp
+*.mp4
+*.m4v
+*.mov
+*.webm
+!public/media/a-roll/
+!public/media/a-roll/*.mp4

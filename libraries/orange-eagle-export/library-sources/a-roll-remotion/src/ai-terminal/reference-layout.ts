@@ -1,0 +1,51 @@
+export const AI_TERMINAL_LAYOUT = {
+  code: {
+    terminalX: 77,
+    terminalY: 297,
+    terminalWidth: 1075,
+    terminalHeight: 486,
+    portraitX: 1286,
+    portraitY: 152,
+    portraitWidth: 556,
+    portraitHeight: 778,
+  },
+  terminal: {
+    x: 220,
+    y: 316,
+    width: 1480,
+    height: 448,
+  },
+  contextTerminal: {
+    x: 198,
+    y: 166,
+    width: 1498,
+    height: 722,
+    inputTop: 764,
+    inputHeight: 72,
+  },
+  aiInput: {
+    x: 284,
+    y: 381,
+    width: 1353,
+    height: 237,
+    typeStart: 32,
+    modelSelectorChevron: {
+      width: 8,
+      height: 5,
+      marginLeft: 7,
+    },
+  },
+  commandMenu: {
+    x: 440,
+    y: 307,
+    width: 1040,
+    height: 618,
+    stageFrames: [18, 58, 98, 138],
+  },
+  commandConverge: {
+    x: 320,
+    y: 326,
+    width: 1280,
+    height: 580,
+  },
+} as const;

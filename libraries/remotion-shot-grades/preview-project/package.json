@@ -1,0 +1,14 @@
+{
+  "name": "remotion-shot-grade-previews",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "render:all": "remotion render src/index.ts GradeS previews/S-cinematic-title-intro.mp4 --codec=h264 --crf=18 && remotion render src/index.ts GradeA previews/A-line-chart.mp4 --codec=h264 --crf=18 && remotion render src/index.ts GradeB previews/B-bokeh-circles.mp4 --codec=h264 --crf=18 && remotion render src/index.ts GradeC previews/C-animated-text.mp4 --codec=h264 --crf=18"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.332",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.332"
+  }
+}

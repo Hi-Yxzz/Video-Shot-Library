@@ -1,0 +1,32 @@
+export const REFERENCE_003_AROLL_CLIPS = {
+  yearMarketOverlay: {
+    src: "assets/reference-003/aroll/year-market-overlay.mp4",
+    sourceName: "A01_4.0s_源1.mp4",
+    sha256: "5d674e81e042b68d52d23cc48cad408a7d62d0d0c8bd07eded61a17dfe81bc3a",
+    trimBefore: 4,
+    durationInFrames: 111,
+    objectFit: "cover",
+    objectPosition: "50% 46%",
+    scale: 1.04,
+  },
+  questionCardSpeaker: {
+    src: "assets/reference-003/aroll/question-card-speaker.mp4",
+    sourceName: "A14_20.0s_源1.mp4",
+    sha256: "7ce36828d9ce03e7c3bc7695c4865f7484a0e5c021409d35431c1876ed61c7e4",
+    trimBefore: 64,
+    durationInFrames: 462,
+    objectFit: "cover",
+    objectPosition: "50% 46%",
+    scale: 1,
+  },
+  monochromeQuotePortrait: {
+    src: "assets/reference-003/aroll/monochrome-quote-portrait.mp4",
+    sourceName: "A10_13.5s_源1.mp4",
+    sha256: "63c373d70966e8610be99c2152d4b1530fbedaaf6d8884dbae67ade5fb6601a0",
+    trimBefore: 10,
+    durationInFrames: 327,
+    objectFit: "cover",
+    objectPosition: "50% 46%",
+    scale: 1.02,
+  },
+} as const;

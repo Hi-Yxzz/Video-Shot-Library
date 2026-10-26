@@ -1,0 +1,1401 @@
+[
+  {
+    "id": "a-roll-001-photo-looping-cards",
+    "title": "静态人物＋双层循环卡片",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "PhotoReplica",
+    "previewPath": "../remotion-photo-replica/out/check-115.png",
+    "outputPath": "../remotion-photo-replica/out/photo-shot-replica.mp4",
+    "durationInFrames": 230,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "固定机位"
+      ],
+      "motion": [
+        "轻推镜",
+        "呼吸视差",
+        "循环卡片"
+      ],
+      "elements": [
+        "AI公司卡片",
+        "双层元素轨道"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-002-openai-equity-split",
+    "title": "OpenAI 股权分屏讲解",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "OpenAIEquitySplit",
+    "previewPath": "../remotion-photo-replica/out/equity-check-100.png",
+    "outputPath": "../remotion-photo-replica/out/openai-equity-split.mp4",
+    "durationInFrames": 236,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "左右分屏",
+        "固定机位"
+      ],
+      "motion": [
+        "轻推镜",
+        "呼吸视差",
+        "逐格显现"
+      ],
+      "elements": [
+        "OpenAI股权图",
+        "100格图表",
+        "数字强调",
+        "微软标识"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-003-ai-brand-card-comparison",
+    "title": "OpenAI 与 Anthropic 悬浮卡片",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "AIBrandCardComparison",
+    "previewPath": "../remotion-photo-replica/out/brand-card-check-36.png",
+    "outputPath": "../remotion-photo-replica/out/ai-brand-card-comparison.mp4",
+    "durationInFrames": 66,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "固定机位",
+        "居中构图"
+      ],
+      "motion": [
+        "轻推镜",
+        "呼吸视差",
+        "卡片依次进入",
+        "悬浮"
+      ],
+      "elements": [
+        "OpenAI卡片",
+        "Anthropic卡片",
+        "双层玻璃卡片"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-004-ai-icon-cloud",
+    "title": "人物周围 AI 图标云",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "AIIconCloud",
+    "previewPath": "../remotion-photo-replica/out/icon-cloud-check-100.png",
+    "outputPath": "../remotion-photo-replica/out/ai-icon-cloud.mp4",
+    "durationInFrames": 140,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "固定机位",
+        "居中构图"
+      ],
+      "motion": [
+        "图标依次弹入",
+        "环绕漂浮",
+        "末段淡出"
+      ],
+      "elements": [
+        "AI公司图标",
+        "图标云",
+        "可替换元素"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-005-product-sop-panel",
+    "title": "产品 SOP 文档展开",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "ProductSOPPanel",
+    "previewPath": "../remotion-photo-replica/out/product-sop-check-74.png",
+    "outputPath": "../remotion-photo-replica/out/product-sop-panel.mp4",
+    "durationInFrames": 78,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "左右构图",
+        "固定机位"
+      ],
+      "motion": [
+        "面板入场",
+        "文档展开",
+        "轻推镜"
+      ],
+      "elements": [
+        "SOP文档",
+        "工作台侧栏",
+        "可替换文本"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-006-ai-usage-headline",
+    "title": "AI 使用场景与红线标题",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "AIUsageHeadline",
+    "previewPath": "../remotion-photo-replica/out/ai-usage-headline-check-82.png",
+    "outputPath": "../remotion-photo-replica/out/ai-usage-headline.mp4",
+    "durationInFrames": 170,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "左右标题",
+        "居中构图"
+      ],
+      "motion": [
+        "左标题入场",
+        "右标题入场",
+        "轻推镜"
+      ],
+      "elements": [
+        "大型中文标题",
+        "AI使用场景",
+        "AI使用红线"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-007-bilateral-ai-icon-stacks",
+    "title": "左右 AI 图标双列",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "BilateralAIIconStacks",
+    "previewPath": "../remotion-photo-replica/out/bilateral-ai-icon-stacks-check-80.png",
+    "outputPath": "../remotion-photo-replica/out/bilateral-ai-icon-stacks.mp4",
+    "durationInFrames": 98,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "居中构图"],
+      "motion": ["双列图标入场", "悬浮"],
+      "elements": ["AI工具图标", "可替换元素"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-008-trae-logo-callout",
+    "title": "Trae 品牌标识弹入",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "TraeLogoCallout",
+    "previewPath": "../remotion-photo-replica/out/trae-logo-callout-check-40.png",
+    "outputPath": "../remotion-photo-replica/out/trae-logo-callout.mp4",
+    "durationInFrames": 72,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧标识"],
+      "motion": ["品牌标识弹入", "轻推镜"],
+      "elements": ["Trae标识", "可替换品牌"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-009-claude-codex-comparison",
+    "title": "Claude Code 与 Codex 对比框",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "ClaudeCodexComparison",
+    "previewPath": "../remotion-photo-replica/out/claude-codex-comparison-check-30.png",
+    "outputPath": "../remotion-photo-replica/out/claude-codex-comparison.mp4",
+    "durationInFrames": 45,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["工具对比", "圆角人物窗"],
+      "motion": ["轻推镜"],
+      "elements": ["Claude Code", "Codex", "黑底版式"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-010-prompt-document-split",
+    "title": "提示词文档右侧分屏",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "PromptDocumentSplit",
+    "previewPath": "../remotion-photo-replica/out/prompt-document-split-check-50.png",
+    "outputPath": "../remotion-photo-replica/out/prompt-document-split.mp4",
+    "durationInFrames": 103,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["左右分屏", "人物左置"],
+      "motion": ["文档滑入", "轻推镜"],
+      "elements": ["提示词文档", "可替换文本"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-011-document-slide",
+    "title": "自定义命令文档左侧滑入",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll011DocumentSlide",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-011.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-011-document-slide.mp4",
+    "durationInFrames": 107,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["左右分屏", "人物右置"],
+      "motion": ["文档滑入", "轻推镜"],
+      "elements": ["命令文档", "可替换文本"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-012-milestone-counter",
+    "title": "双平台里程碑数字动画",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll012MilestoneCounter",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-012.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-012-milestone-counter.mp4",
+    "durationInFrames": 64,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "居中构图"],
+      "motion": ["数字递增", "成绩卡弹入"],
+      "elements": ["里程碑数字", "成绩卡", "进度条"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-013-boss-level-cards",
+    "title": "三张等级卡水平入场",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll013BossLevelCards",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-013.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-013-boss-level-cards.mp4",
+    "durationInFrames": 96,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "居中构图"],
+      "motion": ["卡片依次进入", "轻推镜"],
+      "elements": ["三张卡片", "可替换标签", "水平对齐"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-014-iteration-growth",
+    "title": "迭代成长柱状图",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll014IterationGrowth",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-014.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-014-iteration-growth.mp4",
+    "durationInFrames": 177,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧图表"],
+      "motion": ["柱状图逐级生长", "标题滑入"],
+      "elements": ["成长柱状图", "迭代标题", "信息卡"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-015-knowledge-commodity",
+    "title": "知识平权卡片与工具条",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll015KnowledgeCommodity",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-015.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-015-knowledge-commodity.mp4",
+    "durationInFrames": 152,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "右侧卡片"],
+      "motion": ["知识卡滑入", "底部工具条进入"],
+      "elements": ["知识卡", "AI工具条", "可替换项目"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-016-patient-outcome",
+    "title": "不急于变现双色标题",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll016PatientOutcome",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-016.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-016-patient-outcome.mp4",
+    "durationInFrames": 111,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧标题"],
+      "motion": ["双色标题滑入", "轻推镜"],
+      "elements": ["大型中文标题", "蓝色强调"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-017-agent-card-swap",
+    "title": "WorkBuddy 与 OpenClaw 卡片切换",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll017AgentCardSwap",
+    "previewPath": "../remotion-photo-replica/out/a-roll-017-check-70.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-017-agent-card-swap.mp4",
+    "durationInFrames": 113,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "右上卡片"],
+      "motion": ["品牌卡切换", "右侧滑入"],
+      "elements": ["WorkBuddy", "OpenClaw", "可替换卡片"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-018-numbered-list",
+    "title": "三项编号列表依次进入",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll018NumberedList",
+    "previewPath": "../remotion-photo-replica/out/a-roll-018-check-110.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-018-numbered-list.mp4",
+    "durationInFrames": 127,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧列表"],
+      "motion": ["列表逐项进入", "轻推镜"],
+      "elements": ["编号列表", "可替换文字", "三色强调"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-019-workflow-swap",
+    "title": "AI 工厂与数据分析工作流切换",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll019WorkflowSwap",
+    "previewPath": "../remotion-photo-replica/out/a-roll-019-check-130.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-019-workflow-swap.mp4",
+    "durationInFrames": 188,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "双侧元素"],
+      "motion": ["工作流切换", "卡片滑入"],
+      "elements": ["AI工厂", "数据分析", "任务卡"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-020-ai-title-build",
+    "title": "AI 变现超大标题构成",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll020AITitleBuild",
+    "previewPath": "../remotion-photo-replica/out/a-roll-020-check-25.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-020-ai-title-build.mp4",
+    "durationInFrames": 34,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["中近景", "左侧标题"],
+      "motion": ["标题逐字构成", "缩放弹入"],
+      "elements": ["AI变现", "大型中文标题"],
+      "format": ["16:9", "720p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-021-ai-claims",
+    "title": "AI 趋势双结论切换",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll021AIClaims",
+    "previewPath": "../remotion-photo-replica/out/a-roll-021-check-150.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-021-ai-claims.mp4",
+    "durationInFrames": 205,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["中近景", "居中标题"],
+      "motion": ["双结论切换", "缩放弹入"],
+      "elements": ["80%结论", "2026结论", "紫色强调"],
+      "format": ["16:9", "720p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "xcyj-point-title",
+    "title": "点题关键词卡",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointTitle",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/title.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["关键词卡逐项飞入"],"elements":["可替换卡片","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-list",
+    "title": "侧栏要点列表",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointList",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/list.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["列表逐项进入"],"elements":["侧栏列表","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-compare",
+    "title": "双卡对比",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointCompare",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/compare.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["双卡飞入"],"elements":["对比卡片","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-flankcards",
+    "title": "左右卡片",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointFlankCards",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/flankcards.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["左右卡片错峰进入"],"elements":["双侧卡组","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-logos",
+    "title": "Logo 墙",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointLogoWall",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/logos.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["Logo错峰弹入"],"elements":["可替换Logo","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-chipcluster",
+    "title": "小标签聚成结论",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointChipCluster",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/chipcluster.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["标签汇聚","结论显现"],"elements":["标签","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-pushstack",
+    "title": "一句话说三遍·亮出重点",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointPushStack",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/pushstack.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["卡片堆叠上推","重点显现"],"elements":["重复卡片","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-questionpush",
+    "title": "标题挤到一边·问题清单",
+    "rollType": "B-roll",
+    "category": "typography",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointQuestionPush",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/questionpush.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["标题挤压","问题列表进入"],"elements":["问题清单","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-sealcard",
+    "title": "印章定论卡",
+    "rollType": "B-roll",
+    "category": "typography",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointSealCard",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/sealcard.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["结论弹入","印章砸落"],"elements":["印章","结论字卡"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-rk031",
+    "title": "Radar Lower Third",
+    "rollType": "B-roll",
+    "category": "typography",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointRadarLowerThird",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/rk031.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["下三分之一入场"],"elements":["Lower Third","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-rk070",
+    "title": "Sports Broadcast Lower Third",
+    "rollType": "B-roll",
+    "category": "typography",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointSportsLowerThird",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/rk070.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["体育字幕条入场"],"elements":["Lower Third","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-rk085",
+    "title": "News Ticker Lower Third",
+    "rollType": "B-roll",
+    "category": "typography",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointNewsLowerThird",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/rk085.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["新闻字幕条入场"],"elements":["Ticker","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-rc014",
+    "title": "物件驱动设计沿革",
+    "rollType": "B-roll",
+    "category": "data",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointDesignHistory",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/rc014.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["章节卡错峰","当前项扩展"],"elements":["时间线","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-rc016",
+    "title": "环形目录正文映射",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointWheelInterface",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/rc016.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["环形轮转","正文切换"],"elements":["环形目录","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-rc022",
+    "title": "徽标形变反馈",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointBadgeMorph",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/rc022.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["逐项勾选","计数胶囊显现"],"elements":["徽标","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-rc024",
+    "title": "文字 Token 错峰",
+    "rollType": "B-roll",
+    "category": "typography",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointTokenText",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/rc024.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["词组错峰弹入","关键词划线"],"elements":["文字Token","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-point-selectiverecombine",
+    "title": "选择保留与重组",
+    "rollType": "B-roll",
+    "category": "rhythm",
+    "status": "ready",
+    "collection": "xcyj-point-cards",
+    "previewFolder": "xcyj-point-cards",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjPointSelectiveRecombine",
+    "outputPath": "../remotion-photo-replica/out/xcyj-point-cards/selectiverecombine.mp4",
+    "durationInFrames": 452,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["扇形发牌","保留重组","锁定"],"elements":["候选卡片","要点卡片"],"source":["XCYJ"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-code",
+    "title": "代码窗",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalCode",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/code.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["代码逐行出现"],"elements":["代码窗口","人物图层"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-terminal",
+    "title": "Claude Code 终端",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalClaudeTerminal",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/terminal.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["终端逐行输入"],"elements":["终端窗口","光标"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-contextterminal",
+    "title": "喂资料前后对照（终端）",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalContextTerminal",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/contextterminal.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["前后状态切换"],"elements":["终端窗口","输入框"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-aiinput",
+    "title": "AI 输入页（可换 AI）",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalAiInput",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/aiinput.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["输入框打字"],"elements":["AI 标识","输入框"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-claudecodeinput",
+    "title": "Claude Code 输入页",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalClaudeCodeInput",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/claudecodeinput.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["输入与响应"],"elements":["终端窗口","输入框"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-inputpan",
+    "title": "一镜摇过：聊天框→终端",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalInputPan",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/inputpan.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["聊天框转终端"],"elements":["聊天框","终端窗口"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-rc017",
+    "title": "RC 结构｜命令菜单状态机",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalCommandMenu",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/rc017.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["菜单逐项切换"],"elements":["命令菜单","状态面板"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-ai-terminal-rc021",
+    "title": "RC B 技法｜命令输入收束",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-ai-terminal",
+    "previewFolder": "xcyj-ai-terminal",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjAiTerminalCommandConverge",
+    "outputPath": "../remotion-photo-replica/out/xcyj-ai-terminal/rc021.mp4",
+    "durationInFrames": 182,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["命令输入收束"],"elements":["命令菜单","输入框"],"source":["XCYJ","AI 对话·终端"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-showcase",
+    "title": "产品展示",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotShowcase",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/showcase.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["录屏卡滑入","要点依次出现"],"elements":["录屏卡","人物图层"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-screenshot",
+    "title": "截图证据（半屏）",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotEvidenceSide",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/screenshot.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["截图侧卡滑入","高亮框弹出"],"elements":["截图卡","人物图层"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-shotfull",
+    "title": "截图证据（全屏）",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotEvidenceFull",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/shotfull.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["全屏截图推近"],"elements":["截图","高亮框"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-scrollshot",
+    "title": "长截图往上滚",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotLongScroll",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/scrollshot.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["长截图纵向滚动"],"elements":["长截图","截图卡","人物图层"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-brollstack",
+    "title": "双封面并排（开头用）",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotDoubleCover",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/brollstack.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["双卡错峰飞入"],"elements":["封面卡","人物图层"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-ring",
+    "title": "截图高亮框",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotHighlightRing",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/ring.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"subject":["单人","静态照片"],"motion":["人物持续放大"],"elements":["人物图层","高亮框"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-rc012",
+    "title": "RC A｜滚动叙事固定主画面",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotStickyStory",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/rc012.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["章节滚动","主画面固定"],"elements":["章节列表","波形"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-rc018",
+    "title": "RC 结构｜浏览历史空间栈",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotBrowserStack",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/rc018.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["页面空间轮换"],"elements":["浏览器卡","页面栈"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-rc019",
+    "title": "RC 结构｜三区同步侧边栏",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotSidebarSync",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/rc019.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["三区同步切换"],"elements":["侧边栏","预览区","详情区"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "xcyj-screenshot-recording-rc025",
+    "title": "RC B 技法｜媒体焦点轨道",
+    "rollType": "B-roll",
+    "category": "interaction",
+    "status": "ready",
+    "collection": "xcyj-screenshot-recording",
+    "previewFolder": "xcyj-screenshot-recording",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "XcyjScreenshotMediaRail",
+    "outputPath": "../remotion-photo-replica/out/xcyj-screenshot-recording/rc025.mp4",
+    "durationInFrames": 180,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {"motion":["媒体轨道移动","中心卡聚焦"],"elements":["媒体卡","焦点线"],"source":["XCYJ","截图·录屏"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-transition","title":"过场标题","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjTransitionTitle","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/transition.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["标题飞入","发光条展开"],"elements":["过场标题","发光条"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-abilitypan","title":"能力卡发牌·逐张扫过","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjAbilityCardDeal","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/abilitypan.mp4","durationInFrames":189,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["能力卡逐张发牌","扇形展开"],"elements":["能力卡","序号"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-abilitychapter","title":"能力章节卡","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjAbilityChapter","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/abilitychapter.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["双卡分开","章节卡跟进"],"elements":["能力卡","章节标题"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-dotmatrix","title":"点阵铺底背景","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjDotMatrixBackdrop","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/dotmatrix.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["点阵漂移","脉冲扩散"],"elements":["点阵","辉光"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-tornwipe","title":"撕纸转场","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjTornPaperWipe","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/tornwipe.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["撕纸横扫","快速退出"],"elements":["撕纸","过场词"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-chaptercard","title":"章节标题卡","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjChapterTitleCard","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/chaptercard.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["竖线划入","标题上浮"],"elements":["章节标题","点阵"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk028","title":"Circuit Pulse Background","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjCircuitPulseBackground","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk028.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["电路脉冲","信号流动"],"elements":["电路线","脉冲点"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk029","title":"Orbital Rings Loader","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjOrbitalRingsLoader","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk029.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["轨道环旋转","加载脉冲"],"elements":["轨道环","中心标题"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk036","title":"HUD Eye Scanner","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjHudEyeScanner","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk036.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["扫描线往返","焦点追踪"],"elements":["扫描线","HUD标签"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk063","title":"Waveform Pulse","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjWaveformPulse","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk063.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["波形脉冲","连续起伏"],"elements":["波形线","辉光"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk069","title":"Stargazer","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjStargazer","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk069.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["星点环绕","景深漂移"],"elements":["星点","轨迹"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk080","title":"Particle Field","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjParticleField","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk080.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["粒子穿越","空间扩散"],"elements":["粒子场","景深"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk090","title":"Music Visualizer Scene","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjMusicVisualizer","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk090.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["频谱跳动","节拍起伏"],"elements":["频谱条","节拍"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk093","title":"Matrix Rain","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjMatrixRain","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk093.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["字符下落","矩阵滚动"],"elements":["字符雨","代码"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rk131","title":"Aurora Background","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjAuroraBackground","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rk131.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["极光漂移","柔光流动"],"elements":["极光","渐变辉光"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rc023","title":"RC B 技法｜扫描遮罩转场","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjSweepMaskTransition","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rc023.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["扫描窗移动","局部主题改写"],"elements":["圆形遮罩","扫描线"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-rc026","title":"RC B 技法｜流体表面材质","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjFluidSurface","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/rc026.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["液面起伏","液滴牵引"],"elements":["流体表面","液滴"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-paperlift","title":"整页抬升揭示","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjPaperLift","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/paperlift.mp4","durationInFrames":180,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["整页抬升","结论显现"],"elements":["数据纸页","结论标题"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-documentcascade","title":"文档级联证据墙","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjDocumentCascade","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/documentcascade.mp4","durationInFrames":210,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["文档级联扩展","整体拉远"],"elements":["文档墙","证据页"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id":"xcyj-transition-background-pageleafcascade","title":"连续书页叶片级联","rollType":"B-roll","category":"interaction","status":"ready","collection":"xcyj-transition-background","previewFolder":"xcyj-transition-background","projectPath":"../remotion-photo-replica","compositionId":"XcyjPageLeafCascade","outputPath":"../remotion-photo-replica/out/xcyj-transition-background/pageleafcascade.mp4","durationInFrames":93,"fps":30,"width":1920,"height":1080,
+    "tags":{"motion":["连续翻页","终页锁定"],"elements":["书页","书脊"],"source":["XCYJ","转场·背景"],"format":["16:9","1080p","30fps","无声"]}
+  },
+  {
+    "id": "a-roll-022-vox-fullscreen-countup",
+    "title": "VOX开场｜全屏人物与数字增长",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "yxzz-vox-programmer",
+    "compositionId": "ProgrammerEmploymentSegment1ARollPreview",
+    "outputPath": "public/media/a-roll/a-roll-022-vox-fullscreen-countup.mp4",
+    "durationInFrames": 159,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "sourceProjectPath": "/Users/admin/Documents/视频",
+    "sourceFiles": [
+      "src-programmer/aroll-tests/segment1/Segment1ARollPreview.tsx",
+      "src-programmer/aroll-tests/segment1/CountUpMetric.tsx",
+      "src-programmer/aroll-tests/components/ARollPresenter.tsx"
+    ],
+    "sourceFrameRange": {"start": 9, "end": 168},
+    "parameters": {"maskSlideFrames": 32, "textScale": 1.3, "countUpStart": 55, "countUpEnd": 135, "countUpTarget": 20},
+    "tags": {
+      "subject": ["单人", "真人口播"],
+      "framing": ["全屏人物", "左文右人"],
+      "motion": ["暗色遮罩滑入", "数字增长", "文字错峰进入"],
+      "elements": ["大数字", "黄色标签", "渐变遮罩"],
+      "style": ["VOX", "知识视频"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-023-vox-presenter-shrink-card",
+    "title": "VOX转场｜人物缓动收缩为侧卡",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "yxzz-vox-programmer",
+    "compositionId": "ProgrammerEmploymentSegment1ARollPreview",
+    "outputPath": "public/media/a-roll/a-roll-023-vox-presenter-shrink-card.mp4",
+    "durationInFrames": 141,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "sourceProjectPath": "/Users/admin/Documents/视频",
+    "sourceFiles": [
+      "src-programmer/aroll-tests/segment1/Segment1ARollPreview.tsx",
+      "src-programmer/aroll-tests/components/ARollPresenter.tsx",
+      "src-programmer/aroll-tests/components/OpeningContentReveal.tsx"
+    ],
+    "sourceFrameRange": {"start": 279, "end": 420},
+    "parameters": {"side": "right", "fullScreenHold": 307, "shrinkDuration": 24, "cardWidth": 720, "cardHeight": 790, "easing": "cubic-in-out"},
+    "tags": {
+      "subject": ["单人", "真人口播"],
+      "framing": ["全屏转侧卡", "右侧人物卡"],
+      "motion": ["缓入缓出", "人物收缩", "内容延迟揭示"],
+      "elements": ["人物卡", "橙色投影", "标题字卡"],
+      "style": ["VOX", "知识视频"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-024-vox-crowd-collage-reveal",
+    "title": "VOX拼贴｜人群分层揭示结构差异",
+    "rollType": "B-roll",
+    "category": "data",
+    "status": "ready",
+    "collection": "yxzz-vox-programmer",
+    "compositionId": "ProgrammerEmploymentSegment3ARollPreview",
+    "outputPath": "public/media/a-roll/a-roll-024-vox-crowd-collage-reveal.mp4",
+    "durationInFrames": 199,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "sourceProjectPath": "/Users/admin/Documents/视频",
+    "sourceFiles": [
+      "src-programmer/aroll-tests/segment3/Segment3ARollPreview.tsx",
+      "src-programmer/segment3/components/Segment3Scene.tsx",
+      "src-programmer/segment3/data.ts"
+    ],
+    "sourceFrameRange": {"start": 628, "end": 827},
+    "parameters": {"phaseFrames": [20, 143, 184], "accent": "#ef5b2a", "layout": "crowd-overlap", "background": "paper-grid"},
+    "tags": {
+      "subject": ["多人", "人群拼贴"],
+      "framing": ["左右错位", "前后层次"],
+      "motion": ["人物分层进入", "红线扫过", "镜头轻推"],
+      "elements": ["人群", "年轻人前景", "趋势线"],
+      "style": ["VOX", "报纸拼贴"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-025-vox-dual-trend-countup",
+    "title": "VOX数据｜双趋势数字对照增长",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "yxzz-vox-programmer",
+    "compositionId": "ProgrammerEmploymentSegment3ARollPreview",
+    "outputPath": "public/media/a-roll/a-roll-025-vox-dual-trend-countup.mp4",
+    "durationInFrames": 190,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "sourceProjectPath": "/Users/admin/Documents/视频",
+    "sourceFiles": [
+      "src-programmer/aroll-tests/segment3/Segment3ARollPreview.tsx",
+      "src-programmer/segment3/components/CountUp.tsx",
+      "src-programmer/aroll-tests/components/VOXCard.tsx"
+    ],
+    "sourceFrameRange": {"start": 438, "end": 628},
+    "parameters": {"leftMetric": {"target": -20, "start": 24, "end": 72}, "rightMetric": {"target": 4.4, "start": 88, "end": 138}, "conclusionCardDelay": 140},
+    "tags": {
+      "subject": ["单人", "真人口播"],
+      "framing": ["左侧数据", "右侧人物卡"],
+      "motion": ["双数字依次增长", "结论卡滑入"],
+      "elements": ["百分比", "双指标", "结论卡"],
+      "style": ["VOX", "数据叙事"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-026-vox-evidence-highlight",
+    "title": "VOX证据｜数据源截图推近与标注",
+    "rollType": "B-roll",
+    "category": "data",
+    "status": "ready",
+    "collection": "yxzz-vox-programmer",
+    "compositionId": "ProgrammerEmploymentSegment2ARollPreview",
+    "outputPath": "public/media/a-roll/a-roll-026-vox-evidence-highlight.mp4",
+    "durationInFrames": 330,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "sourceProjectPath": "/Users/admin/Documents/视频",
+    "sourceFiles": [
+      "src-programmer/aroll-tests/segment2/Segment2ARollPreview.tsx",
+      "src-programmer/segment2/scenes/Scene01StanfordDrop.tsx",
+      "src-programmer/segment2/components/EvidencePaper.tsx"
+    ],
+    "sourceFrameRange": {"start": 30, "end": 360},
+    "parameters": {"cameraScale": [1, 1.075], "cameraTranslateX": [0, -58], "highlightFrames": [118, 195], "metricRevealFrames": [210, 245]},
+    "tags": {
+      "subject": ["数据源", "研究截图"],
+      "framing": ["证据纸页", "人物拼贴"],
+      "motion": ["截图推近", "标注线生长", "数据卡揭示"],
+      "elements": ["数据图表", "来源标注", "黄色高亮", "百分比"],
+      "style": ["VOX", "证据叙事"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-027-vox-conclusion-card-stack",
+    "title": "VOX收束｜人物侧卡与结论卡叠入",
+    "rollType": "A-roll",
+    "status": "ready",
+    "collection": "yxzz-vox-programmer",
+    "compositionId": "ProgrammerEmploymentSegment4ARollPreview",
+    "outputPath": "public/media/a-roll/a-roll-027-vox-conclusion-card-stack.mp4",
+    "durationInFrames": 270,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "sourceProjectPath": "/Users/admin/Documents/视频",
+    "sourceFiles": [
+      "src-programmer/aroll-tests/segment4/Segment4ARollPreview.tsx",
+      "src-programmer/aroll-tests/components/ARollPresenter.tsx",
+      "src-programmer/aroll-tests/components/VOXCard.tsx"
+    ],
+    "sourceFrameRange": {"start": 3800, "end": 4070},
+    "parameters": {"fullScreenHold": 139, "shrinkDuration": 24, "side": "right", "firstCardDelay": 76, "sequence": "pure-conclusion-to-card"},
+    "tags": {
+      "subject": ["单人", "真人口播"],
+      "framing": ["全屏转侧卡", "左文右人"],
+      "motion": ["人物收缩", "结论标题揭示", "卡片滑入"],
+      "elements": ["结论标签", "黄色卡片", "人物卡"],
+      "style": ["VOX", "结尾收束"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  }
+]

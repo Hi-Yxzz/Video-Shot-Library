@@ -1,0 +1,563 @@
+[
+  {
+    "id": "a-roll-001-photo-looping-cards",
+    "title": "静态人物＋双层循环卡片",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "PhotoReplica",
+    "previewPath": "../remotion-photo-replica/out/check-115.png",
+    "outputPath": "../remotion-photo-replica/out/photo-shot-replica.mp4",
+    "durationInFrames": 230,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "固定机位"
+      ],
+      "motion": [
+        "轻推镜",
+        "呼吸视差",
+        "循环卡片"
+      ],
+      "elements": [
+        "AI公司卡片",
+        "双层元素轨道"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-002-openai-equity-split",
+    "title": "OpenAI 股权分屏讲解",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "OpenAIEquitySplit",
+    "previewPath": "../remotion-photo-replica/out/equity-check-100.png",
+    "outputPath": "../remotion-photo-replica/out/openai-equity-split.mp4",
+    "durationInFrames": 236,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "左右分屏",
+        "固定机位"
+      ],
+      "motion": [
+        "轻推镜",
+        "呼吸视差",
+        "逐格显现"
+      ],
+      "elements": [
+        "OpenAI股权图",
+        "100格图表",
+        "数字强调",
+        "微软标识"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-003-ai-brand-card-comparison",
+    "title": "OpenAI 与 Anthropic 悬浮卡片",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "AIBrandCardComparison",
+    "previewPath": "../remotion-photo-replica/out/brand-card-check-36.png",
+    "outputPath": "../remotion-photo-replica/out/ai-brand-card-comparison.mp4",
+    "durationInFrames": 66,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "固定机位",
+        "居中构图"
+      ],
+      "motion": [
+        "轻推镜",
+        "呼吸视差",
+        "卡片依次进入",
+        "悬浮"
+      ],
+      "elements": [
+        "OpenAI卡片",
+        "Anthropic卡片",
+        "双层玻璃卡片"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-004-ai-icon-cloud",
+    "title": "人物周围 AI 图标云",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "AIIconCloud",
+    "previewPath": "../remotion-photo-replica/out/icon-cloud-check-100.png",
+    "outputPath": "../remotion-photo-replica/out/ai-icon-cloud.mp4",
+    "durationInFrames": 140,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "固定机位",
+        "居中构图"
+      ],
+      "motion": [
+        "图标依次弹入",
+        "环绕漂浮",
+        "末段淡出"
+      ],
+      "elements": [
+        "AI公司图标",
+        "图标云",
+        "可替换元素"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-005-product-sop-panel",
+    "title": "产品 SOP 文档展开",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "ProductSOPPanel",
+    "previewPath": "../remotion-photo-replica/out/product-sop-check-74.png",
+    "outputPath": "../remotion-photo-replica/out/product-sop-panel.mp4",
+    "durationInFrames": 78,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "左右构图",
+        "固定机位"
+      ],
+      "motion": [
+        "面板入场",
+        "文档展开",
+        "轻推镜"
+      ],
+      "elements": [
+        "SOP文档",
+        "工作台侧栏",
+        "可替换文本"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-006-ai-usage-headline",
+    "title": "AI 使用场景与红线标题",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "AIUsageHeadline",
+    "previewPath": "../remotion-photo-replica/out/ai-usage-headline-check-82.png",
+    "outputPath": "../remotion-photo-replica/out/ai-usage-headline.mp4",
+    "durationInFrames": 170,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": [
+        "单人",
+        "静态照片",
+        "口罩"
+      ],
+      "framing": [
+        "近景",
+        "左右标题",
+        "居中构图"
+      ],
+      "motion": [
+        "左标题入场",
+        "右标题入场",
+        "轻推镜"
+      ],
+      "elements": [
+        "大型中文标题",
+        "AI使用场景",
+        "AI使用红线"
+      ],
+      "format": [
+        "16:9",
+        "30fps",
+        "无声"
+      ]
+    }
+  },
+  {
+    "id": "a-roll-007-bilateral-ai-icon-stacks",
+    "title": "左右 AI 图标双列",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "BilateralAIIconStacks",
+    "previewPath": "../remotion-photo-replica/out/bilateral-ai-icon-stacks-check-80.png",
+    "outputPath": "../remotion-photo-replica/out/bilateral-ai-icon-stacks.mp4",
+    "durationInFrames": 98,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "居中构图"],
+      "motion": ["双列图标入场", "悬浮"],
+      "elements": ["AI工具图标", "可替换元素"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-008-trae-logo-callout",
+    "title": "Trae 品牌标识弹入",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "TraeLogoCallout",
+    "previewPath": "../remotion-photo-replica/out/trae-logo-callout-check-40.png",
+    "outputPath": "../remotion-photo-replica/out/trae-logo-callout.mp4",
+    "durationInFrames": 72,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧标识"],
+      "motion": ["品牌标识弹入", "轻推镜"],
+      "elements": ["Trae标识", "可替换品牌"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-009-claude-codex-comparison",
+    "title": "Claude Code 与 Codex 对比框",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "ClaudeCodexComparison",
+    "previewPath": "../remotion-photo-replica/out/claude-codex-comparison-check-30.png",
+    "outputPath": "../remotion-photo-replica/out/claude-codex-comparison.mp4",
+    "durationInFrames": 45,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["工具对比", "圆角人物窗"],
+      "motion": ["轻推镜"],
+      "elements": ["Claude Code", "Codex", "黑底版式"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-010-prompt-document-split",
+    "title": "提示词文档右侧分屏",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "PromptDocumentSplit",
+    "previewPath": "../remotion-photo-replica/out/prompt-document-split-check-50.png",
+    "outputPath": "../remotion-photo-replica/out/prompt-document-split.mp4",
+    "durationInFrames": 103,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["左右分屏", "人物左置"],
+      "motion": ["文档滑入", "轻推镜"],
+      "elements": ["提示词文档", "可替换文本"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-011-document-slide",
+    "title": "自定义命令文档左侧滑入",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll011DocumentSlide",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-011.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-011-document-slide.mp4",
+    "durationInFrames": 107,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["左右分屏", "人物右置"],
+      "motion": ["文档滑入", "轻推镜"],
+      "elements": ["命令文档", "可替换文本"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-012-milestone-counter",
+    "title": "双平台里程碑数字动画",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll012MilestoneCounter",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-012.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-012-milestone-counter.mp4",
+    "durationInFrames": 64,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "居中构图"],
+      "motion": ["数字递增", "成绩卡弹入"],
+      "elements": ["里程碑数字", "成绩卡", "进度条"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-013-boss-level-cards",
+    "title": "三张等级卡水平入场",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll013BossLevelCards",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-013.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-013-boss-level-cards.mp4",
+    "durationInFrames": 96,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "居中构图"],
+      "motion": ["卡片依次进入", "轻推镜"],
+      "elements": ["三张卡片", "可替换标签", "水平对齐"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-014-iteration-growth",
+    "title": "迭代成长柱状图",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll014IterationGrowth",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-014.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-014-iteration-growth.mp4",
+    "durationInFrames": 177,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧图表"],
+      "motion": ["柱状图逐级生长", "标题滑入"],
+      "elements": ["成长柱状图", "迭代标题", "信息卡"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-015-knowledge-commodity",
+    "title": "知识平权卡片与工具条",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll015KnowledgeCommodity",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-015.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-015-knowledge-commodity.mp4",
+    "durationInFrames": 152,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "右侧卡片"],
+      "motion": ["知识卡滑入", "底部工具条进入"],
+      "elements": ["知识卡", "AI工具条", "可替换项目"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-016-patient-outcome",
+    "title": "不急于变现双色标题",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll016PatientOutcome",
+    "previewPath": "../remotion-photo-replica/out/check-a-roll-016.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-016-patient-outcome.mp4",
+    "durationInFrames": 111,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧标题"],
+      "motion": ["双色标题滑入", "轻推镜"],
+      "elements": ["大型中文标题", "蓝色强调"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-017-agent-card-swap",
+    "title": "WorkBuddy 与 OpenClaw 卡片切换",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll017AgentCardSwap",
+    "previewPath": "../remotion-photo-replica/out/a-roll-017-check-70.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-017-agent-card-swap.mp4",
+    "durationInFrames": 113,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "右上卡片"],
+      "motion": ["品牌卡切换", "右侧滑入"],
+      "elements": ["WorkBuddy", "OpenClaw", "可替换卡片"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-018-numbered-list",
+    "title": "三项编号列表依次进入",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll018NumberedList",
+    "previewPath": "../remotion-photo-replica/out/a-roll-018-check-110.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-018-numbered-list.mp4",
+    "durationInFrames": 127,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "左侧列表"],
+      "motion": ["列表逐项进入", "轻推镜"],
+      "elements": ["编号列表", "可替换文字", "三色强调"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-019-workflow-swap",
+    "title": "AI 工厂与数据分析工作流切换",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll019WorkflowSwap",
+    "previewPath": "../remotion-photo-replica/out/a-roll-019-check-130.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-019-workflow-swap.mp4",
+    "durationInFrames": 188,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["近景", "双侧元素"],
+      "motion": ["工作流切换", "卡片滑入"],
+      "elements": ["AI工厂", "数据分析", "任务卡"],
+      "format": ["16:9", "1080p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-020-ai-title-build",
+    "title": "AI 变现超大标题构成",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll020AITitleBuild",
+    "previewPath": "../remotion-photo-replica/out/a-roll-020-check-25.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-020-ai-title-build.mp4",
+    "durationInFrames": 34,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["中近景", "左侧标题"],
+      "motion": ["标题逐字构成", "缩放弹入"],
+      "elements": ["AI变现", "大型中文标题"],
+      "format": ["16:9", "720p", "30fps", "无声"]
+    }
+  },
+  {
+    "id": "a-roll-021-ai-claims",
+    "title": "AI 趋势双结论切换",
+    "rollType": "A-roll",
+    "status": "ready",
+    "projectPath": "../remotion-photo-replica",
+    "compositionId": "Aroll021AIClaims",
+    "previewPath": "../remotion-photo-replica/out/a-roll-021-check-150.png",
+    "outputPath": "../remotion-photo-replica/out/a-roll-021-ai-claims.mp4",
+    "durationInFrames": 205,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "tags": {
+      "subject": ["单人", "静态照片", "口罩"],
+      "framing": ["中近景", "居中标题"],
+      "motion": ["双结论切换", "缩放弹入"],
+      "elements": ["80%结论", "2026结论", "紫色强调"],
+      "format": ["16:9", "720p", "30fps", "无声"]
+    }
+  }
+]
