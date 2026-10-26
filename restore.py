@@ -49,11 +49,20 @@ def main():
                 # The local proxy interrupted HTTP/2 transfers during migration.
                 transfer_env = os.environ.copy()
                 transfer_env['GODEBUG'] = 'http2client=0'
-                subprocess.run([
-                    'gh', 'release', 'download', manifest['releaseTag'],
-                    '--repo', manifest['repository'], '--pattern', 'media-objects-*.tar',
-                    '--dir', str(asset_dir),
-                ], check=True, env=transfer_env)
+                for index, asset in enumerate(manifest['mediaAssets'], 1):
+                    downloaded = child(asset_dir, asset['name'])
+                    for attempt in range(3):
+                        subprocess.run([
+                            'gh', 'release', 'download', manifest['releaseTag'],
+                            '--repo', manifest['repository'], '--pattern', asset['name'],
+                            '--dir', str(asset_dir),
+                        ], env=transfer_env, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+                        if downloaded.is_file() and sha256(downloaded) == asset['sha256']:
+                            break
+                        downloaded.unlink(missing_ok=True)
+                        if attempt == 2:
+                            raise RuntimeError(f'Unable to download verified release asset: {asset["name"]}')
+                    print(f'Downloaded media {index}/{len(manifest["mediaAssets"])}', flush=True)
             object_dir = cache / 'objects'
             object_dir.mkdir()
             for asset in manifest['mediaAssets']:
