@@ -453,9 +453,24 @@ export function mergeCatalogs(upstreamCatalog, gradedCatalog) {
       gradedCards.filter((card) => card.grade === grade).length,
     ]),
   );
+  const {
+    generatedAt: upstreamGeneratedAt,
+    revision: upstreamRevision,
+    ...upstreamFields
+  } = upstreamCatalog;
+  const generatedAt = [
+    upstreamGeneratedAt,
+    gradedCatalog.generatedAt,
+  ]
+    .filter((value) => typeof value === "string")
+    .sort(compareText)
+    .at(-1);
 
   return {
-    ...upstreamCatalog,
+    ...(generatedAt ? { generatedAt } : {}),
+    ...(upstreamGeneratedAt ? { upstreamGeneratedAt } : {}),
+    ...(upstreamRevision ? { upstreamRevision } : {}),
+    ...upstreamFields,
     cards,
     gradeCounts,
     stats: {

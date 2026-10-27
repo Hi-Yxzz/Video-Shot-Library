@@ -177,6 +177,8 @@ test("reclassifies Video Shotcraft cards during normalization", () => {
 test("merges graded player cards while preserving video cards", () => {
   const upstream = normalizeLibrary(
     {
+      generatedAt: "2026-07-19T05:01:54.882Z",
+      revision: "upstream-revision",
       cards: [card()],
       categories: {},
       stats: {
@@ -197,7 +199,10 @@ test("merges graded player cards while preserving video cards", () => {
       "library-sources/remocn/registry/remocn/blur-in/index.tsx",
     ],
   };
-  const result = mergeCatalogs(upstream, { cards: [gradedCard] });
+  const result = mergeCatalogs(upstream, {
+    generatedAt: "2026-07-27T00:00:00.000Z",
+    cards: [gradedCard],
+  });
 
   assert.equal(result.cards.length, 2);
   assert.equal(result.cards[0].previewKind, "video");
@@ -209,6 +214,13 @@ test("merges graded player cards while preserving video cards", () => {
     result.cards[1].sourceUrl,
     "https://github.com/Hi-Yxzz/Video-Shot-Library/blob/main/library-sources/remocn/registry/remocn/blur-in/index.tsx",
   );
+  assert.equal(result.generatedAt, "2026-07-27T00:00:00.000Z");
+  assert.equal(
+    result.upstreamGeneratedAt,
+    "2026-07-19T05:01:54.882Z",
+  );
+  assert.equal(result.upstreamRevision, "upstream-revision");
+  assert.equal("revision" in result, false);
 });
 
 test("reclassifies committed graded cards during merge", () => {

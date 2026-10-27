@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-19T05:01:54.882Z",
-  "revision": "bdd94be16d60fa8f",
+  "generatedAt": "2026-07-27T00:00:00.000Z",
+  "upstreamGeneratedAt": "2026-07-19T05:01:54.882Z",
+  "upstreamRevision": "bdd94be16d60fa8f",
   "stats": {
     "cardCount": 276,
     "styleCount": 333,
